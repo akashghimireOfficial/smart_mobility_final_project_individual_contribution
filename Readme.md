@@ -112,4 +112,6 @@ This has been detailly explained on a video presentation which will be submitted
 3. [Demo 3](https://www.youtube.com/watch?v=IUQ8O125wrE&ab_channel=AKASHGHIMIRE)
 4. [Demo 4](https://www.youtube.com/watch?v=wnw1mWM6HAQ&ab_channel=AKASHGHIMIRE)
 
+## [Detailed Explanation of the work: Click Here](https://drive.google.com/file/d/1IRBk5U86LYMGRNqeZW3ha30SwS_quU9d/view?usp=sharing)
+
 The final presentation will be submitted on Iclass.
