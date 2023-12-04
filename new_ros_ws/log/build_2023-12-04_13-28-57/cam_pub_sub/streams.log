@@ -1,0 +1,30 @@
+[2.343s] Invoking command in '/home/akash/new_ros_ws/src/cam_pub_sub': CMAKE_PREFIX_PATH=/home/akash/new_ros_ws/install/cam_interface:/home/akash/new_ros_ws/install/gesture_interface LD_LIBRARY_PATH=/home/akash/new_ros_ws/install/cam_interface/lib:/home/akash/new_ros_ws/install/gesture_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/akash/new_ros_ws/build/cam_pub_sub/prefix_override:/home/akash/new_ros_ws/install/cam_pub_sub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/cam_pub_sub build --build-base /home/akash/new_ros_ws/build/cam_pub_sub/build install --record /home/akash/new_ros_ws/build/cam_pub_sub/install.log --single-version-externally-managed
+[2.893s] running egg_info
+[2.894s] writing ../../build/cam_pub_sub/cam_pub_sub.egg-info/PKG-INFO
+[2.895s] writing dependency_links to ../../build/cam_pub_sub/cam_pub_sub.egg-info/dependency_links.txt
+[2.895s] writing entry points to ../../build/cam_pub_sub/cam_pub_sub.egg-info/entry_points.txt
+[2.896s] writing requirements to ../../build/cam_pub_sub/cam_pub_sub.egg-info/requires.txt
+[2.896s] writing top-level names to ../../build/cam_pub_sub/cam_pub_sub.egg-info/top_level.txt
+[2.899s] reading manifest file '../../build/cam_pub_sub/cam_pub_sub.egg-info/SOURCES.txt'
+[2.900s] writing manifest file '../../build/cam_pub_sub/cam_pub_sub.egg-info/SOURCES.txt'
+[2.901s] running build
+[2.901s] running build_py
+[2.901s] copying cam_pub_sub/cam_pub.py -> /home/akash/new_ros_ws/build/cam_pub_sub/build/lib/cam_pub_sub
+[2.902s] copying cam_pub_sub/cam_sub.py -> /home/akash/new_ros_ws/build/cam_pub_sub/build/lib/cam_pub_sub
+[2.903s] running install
+[2.903s] running install_lib
+[2.903s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.904s]   warnings.warn(
+[2.904s] copying /home/akash/new_ros_ws/build/cam_pub_sub/build/lib/cam_pub_sub/cam_pub.py -> /home/akash/new_ros_ws/install/cam_pub_sub/lib/python3.10/site-packages/cam_pub_sub
+[2.904s] copying /home/akash/new_ros_ws/build/cam_pub_sub/build/lib/cam_pub_sub/cam_sub.py -> /home/akash/new_ros_ws/install/cam_pub_sub/lib/python3.10/site-packages/cam_pub_sub
+[2.905s] byte-compiling /home/akash/new_ros_ws/install/cam_pub_sub/lib/python3.10/site-packages/cam_pub_sub/cam_pub.py to cam_pub.cpython-310.pyc
+[2.906s] byte-compiling /home/akash/new_ros_ws/install/cam_pub_sub/lib/python3.10/site-packages/cam_pub_sub/cam_sub.py to cam_sub.cpython-310.pyc
+[2.907s] running install_data
+[2.908s] running install_egg_info
+[2.912s] removing '/home/akash/new_ros_ws/install/cam_pub_sub/lib/python3.10/site-packages/cam_pub_sub-0.0.0-py3.10.egg-info' (and everything under it)
+[2.912s] Copying ../../build/cam_pub_sub/cam_pub_sub.egg-info to /home/akash/new_ros_ws/install/cam_pub_sub/lib/python3.10/site-packages/cam_pub_sub-0.0.0-py3.10.egg-info
+[2.914s] running install_scripts
+[2.948s] Installing cam_pub script to /home/akash/new_ros_ws/install/cam_pub_sub/lib/cam_pub_sub
+[2.949s] Installing cam_sub script to /home/akash/new_ros_ws/install/cam_pub_sub/lib/cam_pub_sub
+[2.950s] writing list of installed files to '/home/akash/new_ros_ws/build/cam_pub_sub/install.log'
+[3.032s] Invoked command in '/home/akash/new_ros_ws/src/cam_pub_sub' returned '0': CMAKE_PREFIX_PATH=/home/akash/new_ros_ws/install/cam_interface:/home/akash/new_ros_ws/install/gesture_interface LD_LIBRARY_PATH=/home/akash/new_ros_ws/install/cam_interface/lib:/home/akash/new_ros_ws/install/gesture_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/akash/new_ros_ws/build/cam_pub_sub/prefix_override:/home/akash/new_ros_ws/install/cam_pub_sub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/cam_pub_sub build --build-base /home/akash/new_ros_ws/build/cam_pub_sub/build install --record /home/akash/new_ros_ws/build/cam_pub_sub/install.log --single-version-externally-managed

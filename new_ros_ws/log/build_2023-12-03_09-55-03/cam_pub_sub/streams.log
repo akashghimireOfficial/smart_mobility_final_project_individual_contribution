@@ -1,0 +1,43 @@
+[2.405s] Invoking command in '/home/akash/new_ros_ws/src/cam_pub_sub': PYTHONPATH=/home/akash/new_ros_ws/build/cam_pub_sub/prefix_override:/home/akash/new_ros_ws/install/cam_pub_sub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/cam_pub_sub build --build-base /home/akash/new_ros_ws/build/cam_pub_sub/build install --record /home/akash/new_ros_ws/build/cam_pub_sub/install.log --single-version-externally-managed
+[2.890s] running egg_info
+[2.891s] creating ../../build/cam_pub_sub/cam_pub_sub.egg-info
+[2.892s] writing ../../build/cam_pub_sub/cam_pub_sub.egg-info/PKG-INFO
+[2.893s] writing dependency_links to ../../build/cam_pub_sub/cam_pub_sub.egg-info/dependency_links.txt
+[2.894s] writing entry points to ../../build/cam_pub_sub/cam_pub_sub.egg-info/entry_points.txt
+[2.894s] writing requirements to ../../build/cam_pub_sub/cam_pub_sub.egg-info/requires.txt
+[2.895s] writing top-level names to ../../build/cam_pub_sub/cam_pub_sub.egg-info/top_level.txt
+[2.895s] writing manifest file '../../build/cam_pub_sub/cam_pub_sub.egg-info/SOURCES.txt'
+[2.899s] reading manifest file '../../build/cam_pub_sub/cam_pub_sub.egg-info/SOURCES.txt'
+[2.900s] writing manifest file '../../build/cam_pub_sub/cam_pub_sub.egg-info/SOURCES.txt'
+[2.901s] running build
+[2.901s] running build_py
+[2.902s] creating /home/akash/new_ros_ws/build/cam_pub_sub/build
+[2.902s] creating /home/akash/new_ros_ws/build/cam_pub_sub/build/lib
+[2.903s] creating /home/akash/new_ros_ws/build/cam_pub_sub/build/lib/cam_pub_sub
+[2.903s] copying cam_pub_sub/cam_pub.py -> /home/akash/new_ros_ws/build/cam_pub_sub/build/lib/cam_pub_sub
+[2.904s] copying cam_pub_sub/cam_sub.py -> /home/akash/new_ros_ws/build/cam_pub_sub/build/lib/cam_pub_sub
+[2.905s] copying cam_pub_sub/__init__.py -> /home/akash/new_ros_ws/build/cam_pub_sub/build/lib/cam_pub_sub
+[2.905s] running install
+[2.905s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.905s]   warnings.warn(
+[2.906s] running install_lib
+[2.908s] creating /home/akash/new_ros_ws/install/cam_pub_sub/lib/python3.10/site-packages/cam_pub_sub
+[2.908s] copying /home/akash/new_ros_ws/build/cam_pub_sub/build/lib/cam_pub_sub/cam_pub.py -> /home/akash/new_ros_ws/install/cam_pub_sub/lib/python3.10/site-packages/cam_pub_sub
+[2.909s] copying /home/akash/new_ros_ws/build/cam_pub_sub/build/lib/cam_pub_sub/cam_sub.py -> /home/akash/new_ros_ws/install/cam_pub_sub/lib/python3.10/site-packages/cam_pub_sub
+[2.909s] copying /home/akash/new_ros_ws/build/cam_pub_sub/build/lib/cam_pub_sub/__init__.py -> /home/akash/new_ros_ws/install/cam_pub_sub/lib/python3.10/site-packages/cam_pub_sub
+[2.911s] byte-compiling /home/akash/new_ros_ws/install/cam_pub_sub/lib/python3.10/site-packages/cam_pub_sub/cam_pub.py to cam_pub.cpython-310.pyc
+[2.912s] byte-compiling /home/akash/new_ros_ws/install/cam_pub_sub/lib/python3.10/site-packages/cam_pub_sub/cam_sub.py to cam_sub.cpython-310.pyc
+[2.913s] byte-compiling /home/akash/new_ros_ws/install/cam_pub_sub/lib/python3.10/site-packages/cam_pub_sub/__init__.py to __init__.cpython-310.pyc
+[2.913s] running install_data
+[2.914s] creating /home/akash/new_ros_ws/install/cam_pub_sub/share/ament_index
+[2.915s] creating /home/akash/new_ros_ws/install/cam_pub_sub/share/ament_index/resource_index
+[2.915s] creating /home/akash/new_ros_ws/install/cam_pub_sub/share/ament_index/resource_index/packages
+[2.916s] copying resource/cam_pub_sub -> /home/akash/new_ros_ws/install/cam_pub_sub/share/ament_index/resource_index/packages
+[2.916s] copying package.xml -> /home/akash/new_ros_ws/install/cam_pub_sub/share/cam_pub_sub
+[2.917s] running install_egg_info
+[2.920s] Copying ../../build/cam_pub_sub/cam_pub_sub.egg-info to /home/akash/new_ros_ws/install/cam_pub_sub/lib/python3.10/site-packages/cam_pub_sub-0.0.0-py3.10.egg-info
+[2.922s] running install_scripts
+[2.959s] Installing cam_pub script to /home/akash/new_ros_ws/install/cam_pub_sub/lib/cam_pub_sub
+[2.960s] Installing cam_sub script to /home/akash/new_ros_ws/install/cam_pub_sub/lib/cam_pub_sub
+[2.960s] writing list of installed files to '/home/akash/new_ros_ws/build/cam_pub_sub/install.log'
+[3.010s] Invoked command in '/home/akash/new_ros_ws/src/cam_pub_sub' returned '0': PYTHONPATH=/home/akash/new_ros_ws/build/cam_pub_sub/prefix_override:/home/akash/new_ros_ws/install/cam_pub_sub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/cam_pub_sub build --build-base /home/akash/new_ros_ws/build/cam_pub_sub/build install --record /home/akash/new_ros_ws/build/cam_pub_sub/install.log --single-version-externally-managed

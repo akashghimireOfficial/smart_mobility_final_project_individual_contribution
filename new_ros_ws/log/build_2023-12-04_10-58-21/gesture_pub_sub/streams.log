@@ -1,0 +1,26 @@
+[5.860s] Invoking command in '/home/akash/new_ros_ws/src/gesture_pub_sub': AMENT_PREFIX_PATH=/home/akash/new_ros_ws/install/cam_pub_sub:/home/akash/new_ros_ws/install/gesture_interface:/home/akash/new_ros_ws/install/cam_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/akash/new_ros_ws/install/gesture_interface:/home/akash/new_ros_ws/install/cam_interface LD_LIBRARY_PATH=/home/akash/new_ros_ws/install/gesture_interface/lib:/home/akash/new_ros_ws/install/cam_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/akash/new_ros_ws/build/gesture_pub_sub/prefix_override:/home/akash/new_ros_ws/install/gesture_pub_sub/lib/python3.10/site-packages:/home/akash/new_ros_ws/install/cam_pub_sub/lib/python3.10/site-packages:/home/akash/new_ros_ws/install/gesture_interface/local/lib/python3.10/dist-packages:/home/akash/new_ros_ws/install/cam_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/gesture_pub_sub build --build-base /home/akash/new_ros_ws/build/gesture_pub_sub/build install --record /home/akash/new_ros_ws/build/gesture_pub_sub/install.log --install-scripts $base/lib/gesture_pub_sub --single-version-externally-managed
+[6.655s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[6.655s]   warnings.warn(
+[6.679s] running egg_info
+[6.681s] writing ../../build/gesture_pub_sub/gesture_pub_sub.egg-info/PKG-INFO
+[6.682s] writing dependency_links to ../../build/gesture_pub_sub/gesture_pub_sub.egg-info/dependency_links.txt
+[6.683s] writing entry points to ../../build/gesture_pub_sub/gesture_pub_sub.egg-info/entry_points.txt
+[6.684s] writing requirements to ../../build/gesture_pub_sub/gesture_pub_sub.egg-info/requires.txt
+[6.684s] writing top-level names to ../../build/gesture_pub_sub/gesture_pub_sub.egg-info/top_level.txt
+[6.695s] reading manifest file '../../build/gesture_pub_sub/gesture_pub_sub.egg-info/SOURCES.txt'
+[6.699s] writing manifest file '../../build/gesture_pub_sub/gesture_pub_sub.egg-info/SOURCES.txt'
+[6.699s] running build
+[6.699s] running build_py
+[6.705s] running install
+[6.705s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[6.705s]   warnings.warn(
+[6.706s] running install_lib
+[6.720s] running install_data
+[6.728s] running install_egg_info
+[6.732s] removing '/home/akash/new_ros_ws/install/gesture_pub_sub/lib/python3.10/site-packages/gesture_pub_sub-0.0.0-py3.10.egg-info' (and everything under it)
+[6.733s] Copying ../../build/gesture_pub_sub/gesture_pub_sub.egg-info to /home/akash/new_ros_ws/install/gesture_pub_sub/lib/python3.10/site-packages/gesture_pub_sub-0.0.0-py3.10.egg-info
+[6.742s] running install_scripts
+[6.844s] Installing gesture_publisher script to /home/akash/new_ros_ws/install/gesture_pub_sub/lib/gesture_pub_sub
+[6.845s] Installing gesture_subscriber script to /home/akash/new_ros_ws/install/gesture_pub_sub/lib/gesture_pub_sub
+[6.846s] writing list of installed files to '/home/akash/new_ros_ws/build/gesture_pub_sub/install.log'
+[6.977s] Invoked command in '/home/akash/new_ros_ws/src/gesture_pub_sub' returned '0': AMENT_PREFIX_PATH=/home/akash/new_ros_ws/install/cam_pub_sub:/home/akash/new_ros_ws/install/gesture_interface:/home/akash/new_ros_ws/install/cam_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/akash/new_ros_ws/install/gesture_interface:/home/akash/new_ros_ws/install/cam_interface LD_LIBRARY_PATH=/home/akash/new_ros_ws/install/gesture_interface/lib:/home/akash/new_ros_ws/install/cam_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/akash/new_ros_ws/build/gesture_pub_sub/prefix_override:/home/akash/new_ros_ws/install/gesture_pub_sub/lib/python3.10/site-packages:/home/akash/new_ros_ws/install/cam_pub_sub/lib/python3.10/site-packages:/home/akash/new_ros_ws/install/gesture_interface/local/lib/python3.10/dist-packages:/home/akash/new_ros_ws/install/cam_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/gesture_pub_sub build --build-base /home/akash/new_ros_ws/build/gesture_pub_sub/build install --record /home/akash/new_ros_ws/build/gesture_pub_sub/install.log --install-scripts $base/lib/gesture_pub_sub --single-version-externally-managed

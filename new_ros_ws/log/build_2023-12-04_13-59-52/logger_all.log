@@ -1,0 +1,336 @@
+[3.436s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[3.436s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fdf117fc940>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fdf117ff8b0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fdf117ff8b0>>)
+[3.561s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[3.561s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[3.561s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[3.561s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[3.561s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[3.562s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[3.562s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/akash/new_ros_ws'
+[3.562s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[3.564s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[3.565s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[3.565s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[3.565s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[3.566s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[3.566s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[3.566s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[3.566s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[3.596s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[3.596s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[3.596s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[3.596s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[3.596s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[3.596s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[3.597s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[3.597s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[3.597s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[3.597s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[3.597s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[3.598s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[3.598s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[3.598s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[3.598s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[3.598s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[3.599s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[3.599s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[3.599s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[3.599s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[3.599s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[3.599s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[3.599s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[3.599s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[3.599s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[3.600s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[3.600s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[3.600s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[3.600s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_interface) by extensions ['ignore', 'ignore_ament_install']
+[3.600s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_interface) by extension 'ignore'
+[3.601s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_interface) by extension 'ignore_ament_install'
+[3.601s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_interface) by extensions ['colcon_pkg']
+[3.601s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_interface) by extension 'colcon_pkg'
+[3.601s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_interface) by extensions ['colcon_meta']
+[3.601s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_interface) by extension 'colcon_meta'
+[3.601s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_interface) by extensions ['ros']
+[3.601s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_interface) by extension 'ros'
+[3.607s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cam_interface' with type 'ros.ament_cmake' and name 'cam_interface'
+[3.607s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_pub_sub) by extensions ['ignore', 'ignore_ament_install']
+[3.607s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_pub_sub) by extension 'ignore'
+[3.608s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_pub_sub) by extension 'ignore_ament_install'
+[3.608s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_pub_sub) by extensions ['colcon_pkg']
+[3.608s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_pub_sub) by extension 'colcon_pkg'
+[3.608s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_pub_sub) by extensions ['colcon_meta']
+[3.608s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_pub_sub) by extension 'colcon_meta'
+[3.608s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_pub_sub) by extensions ['ros']
+[3.608s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_pub_sub) by extension 'ros'
+[3.610s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cam_pub_sub' with type 'ros.ament_python' and name 'cam_pub_sub'
+[3.610s] Level 1:colcon.colcon_core.package_identification:_identify(src/gesture_interface) by extensions ['ignore', 'ignore_ament_install']
+[3.610s] Level 1:colcon.colcon_core.package_identification:_identify(src/gesture_interface) by extension 'ignore'
+[3.611s] Level 1:colcon.colcon_core.package_identification:_identify(src/gesture_interface) by extension 'ignore_ament_install'
+[3.611s] Level 1:colcon.colcon_core.package_identification:_identify(src/gesture_interface) by extensions ['colcon_pkg']
+[3.611s] Level 1:colcon.colcon_core.package_identification:_identify(src/gesture_interface) by extension 'colcon_pkg'
+[3.611s] Level 1:colcon.colcon_core.package_identification:_identify(src/gesture_interface) by extensions ['colcon_meta']
+[3.611s] Level 1:colcon.colcon_core.package_identification:_identify(src/gesture_interface) by extension 'colcon_meta'
+[3.611s] Level 1:colcon.colcon_core.package_identification:_identify(src/gesture_interface) by extensions ['ros']
+[3.611s] Level 1:colcon.colcon_core.package_identification:_identify(src/gesture_interface) by extension 'ros'
+[3.613s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gesture_interface' with type 'ros.ament_cmake' and name 'gesture_interface'
+[3.614s] Level 1:colcon.colcon_core.package_identification:_identify(src/gesture_pub_sub) by extensions ['ignore', 'ignore_ament_install']
+[3.615s] Level 1:colcon.colcon_core.package_identification:_identify(src/gesture_pub_sub) by extension 'ignore'
+[3.616s] Level 1:colcon.colcon_core.package_identification:_identify(src/gesture_pub_sub) by extension 'ignore_ament_install'
+[3.616s] Level 1:colcon.colcon_core.package_identification:_identify(src/gesture_pub_sub) by extensions ['colcon_pkg']
+[3.616s] Level 1:colcon.colcon_core.package_identification:_identify(src/gesture_pub_sub) by extension 'colcon_pkg'
+[3.616s] Level 1:colcon.colcon_core.package_identification:_identify(src/gesture_pub_sub) by extensions ['colcon_meta']
+[3.616s] Level 1:colcon.colcon_core.package_identification:_identify(src/gesture_pub_sub) by extension 'colcon_meta'
+[3.616s] Level 1:colcon.colcon_core.package_identification:_identify(src/gesture_pub_sub) by extensions ['ros']
+[3.616s] Level 1:colcon.colcon_core.package_identification:_identify(src/gesture_pub_sub) by extension 'ros'
+[3.619s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gesture_pub_sub' with type 'ros.ament_python' and name 'gesture_pub_sub'
+[3.619s] Level 1:colcon.colcon_core.package_identification:_identify(video) by extensions ['ignore', 'ignore_ament_install']
+[3.620s] Level 1:colcon.colcon_core.package_identification:_identify(video) by extension 'ignore'
+[3.620s] Level 1:colcon.colcon_core.package_identification:_identify(video) by extension 'ignore_ament_install'
+[3.620s] Level 1:colcon.colcon_core.package_identification:_identify(video) by extensions ['colcon_pkg']
+[3.620s] Level 1:colcon.colcon_core.package_identification:_identify(video) by extension 'colcon_pkg'
+[3.620s] Level 1:colcon.colcon_core.package_identification:_identify(video) by extensions ['colcon_meta']
+[3.620s] Level 1:colcon.colcon_core.package_identification:_identify(video) by extension 'colcon_meta'
+[3.620s] Level 1:colcon.colcon_core.package_identification:_identify(video) by extensions ['ros']
+[3.620s] Level 1:colcon.colcon_core.package_identification:_identify(video) by extension 'ros'
+[3.621s] Level 1:colcon.colcon_core.package_identification:_identify(video) by extensions ['cmake', 'python']
+[3.621s] Level 1:colcon.colcon_core.package_identification:_identify(video) by extension 'cmake'
+[3.621s] Level 1:colcon.colcon_core.package_identification:_identify(video) by extension 'python'
+[3.621s] Level 1:colcon.colcon_core.package_identification:_identify(video) by extensions ['python_setup_py']
+[3.621s] Level 1:colcon.colcon_core.package_identification:_identify(video) by extension 'python_setup_py'
+[3.621s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[3.621s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[3.622s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[3.622s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[3.622s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[3.912s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[3.913s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[3.995s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 270 installed packages in /opt/ros/humble
+[3.998s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[4.269s] Level 5:colcon.colcon_core.verb:set package 'cam_interface' build argument 'cmake_args' from command line to 'None'
+[4.269s] Level 5:colcon.colcon_core.verb:set package 'cam_interface' build argument 'cmake_target' from command line to 'None'
+[4.269s] Level 5:colcon.colcon_core.verb:set package 'cam_interface' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.269s] Level 5:colcon.colcon_core.verb:set package 'cam_interface' build argument 'cmake_clean_cache' from command line to 'False'
+[4.270s] Level 5:colcon.colcon_core.verb:set package 'cam_interface' build argument 'cmake_clean_first' from command line to 'False'
+[4.270s] Level 5:colcon.colcon_core.verb:set package 'cam_interface' build argument 'cmake_force_configure' from command line to 'False'
+[4.271s] Level 5:colcon.colcon_core.verb:set package 'cam_interface' build argument 'ament_cmake_args' from command line to 'None'
+[4.271s] Level 5:colcon.colcon_core.verb:set package 'cam_interface' build argument 'catkin_cmake_args' from command line to 'None'
+[4.271s] Level 5:colcon.colcon_core.verb:set package 'cam_interface' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.271s] DEBUG:colcon.colcon_core.verb:Building package 'cam_interface' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/akash/new_ros_ws/build/cam_interface', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/akash/new_ros_ws/install/cam_interface', 'merge_install': False, 'path': '/home/akash/new_ros_ws/src/cam_interface', 'symlink_install': False, 'test_result_base': None}
+[4.308s] Level 5:colcon.colcon_core.verb:set package 'gesture_interface' build argument 'cmake_args' from command line to 'None'
+[4.308s] Level 5:colcon.colcon_core.verb:set package 'gesture_interface' build argument 'cmake_target' from command line to 'None'
+[4.308s] Level 5:colcon.colcon_core.verb:set package 'gesture_interface' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.308s] Level 5:colcon.colcon_core.verb:set package 'gesture_interface' build argument 'cmake_clean_cache' from command line to 'False'
+[4.308s] Level 5:colcon.colcon_core.verb:set package 'gesture_interface' build argument 'cmake_clean_first' from command line to 'False'
+[4.309s] Level 5:colcon.colcon_core.verb:set package 'gesture_interface' build argument 'cmake_force_configure' from command line to 'False'
+[4.309s] Level 5:colcon.colcon_core.verb:set package 'gesture_interface' build argument 'ament_cmake_args' from command line to 'None'
+[4.309s] Level 5:colcon.colcon_core.verb:set package 'gesture_interface' build argument 'catkin_cmake_args' from command line to 'None'
+[4.309s] Level 5:colcon.colcon_core.verb:set package 'gesture_interface' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.309s] DEBUG:colcon.colcon_core.verb:Building package 'gesture_interface' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/akash/new_ros_ws/build/gesture_interface', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/akash/new_ros_ws/install/gesture_interface', 'merge_install': False, 'path': '/home/akash/new_ros_ws/src/gesture_interface', 'symlink_install': False, 'test_result_base': None}
+[4.377s] Level 5:colcon.colcon_core.verb:set package 'cam_pub_sub' build argument 'cmake_args' from command line to 'None'
+[4.377s] Level 5:colcon.colcon_core.verb:set package 'cam_pub_sub' build argument 'cmake_target' from command line to 'None'
+[4.377s] Level 5:colcon.colcon_core.verb:set package 'cam_pub_sub' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.378s] Level 5:colcon.colcon_core.verb:set package 'cam_pub_sub' build argument 'cmake_clean_cache' from command line to 'False'
+[4.378s] Level 5:colcon.colcon_core.verb:set package 'cam_pub_sub' build argument 'cmake_clean_first' from command line to 'False'
+[4.378s] Level 5:colcon.colcon_core.verb:set package 'cam_pub_sub' build argument 'cmake_force_configure' from command line to 'False'
+[4.378s] Level 5:colcon.colcon_core.verb:set package 'cam_pub_sub' build argument 'ament_cmake_args' from command line to 'None'
+[4.378s] Level 5:colcon.colcon_core.verb:set package 'cam_pub_sub' build argument 'catkin_cmake_args' from command line to 'None'
+[4.378s] Level 5:colcon.colcon_core.verb:set package 'cam_pub_sub' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.378s] DEBUG:colcon.colcon_core.verb:Building package 'cam_pub_sub' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/akash/new_ros_ws/build/cam_pub_sub', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/akash/new_ros_ws/install/cam_pub_sub', 'merge_install': False, 'path': '/home/akash/new_ros_ws/src/cam_pub_sub', 'symlink_install': False, 'test_result_base': None}
+[4.433s] Level 5:colcon.colcon_core.verb:set package 'gesture_pub_sub' build argument 'cmake_args' from command line to 'None'
+[4.434s] Level 5:colcon.colcon_core.verb:set package 'gesture_pub_sub' build argument 'cmake_target' from command line to 'None'
+[4.434s] Level 5:colcon.colcon_core.verb:set package 'gesture_pub_sub' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.434s] Level 5:colcon.colcon_core.verb:set package 'gesture_pub_sub' build argument 'cmake_clean_cache' from command line to 'False'
+[4.434s] Level 5:colcon.colcon_core.verb:set package 'gesture_pub_sub' build argument 'cmake_clean_first' from command line to 'False'
+[4.434s] Level 5:colcon.colcon_core.verb:set package 'gesture_pub_sub' build argument 'cmake_force_configure' from command line to 'False'
+[4.434s] Level 5:colcon.colcon_core.verb:set package 'gesture_pub_sub' build argument 'ament_cmake_args' from command line to 'None'
+[4.434s] Level 5:colcon.colcon_core.verb:set package 'gesture_pub_sub' build argument 'catkin_cmake_args' from command line to 'None'
+[4.434s] Level 5:colcon.colcon_core.verb:set package 'gesture_pub_sub' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.434s] DEBUG:colcon.colcon_core.verb:Building package 'gesture_pub_sub' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/akash/new_ros_ws/build/gesture_pub_sub', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/akash/new_ros_ws/install/gesture_pub_sub', 'merge_install': False, 'path': '/home/akash/new_ros_ws/src/gesture_pub_sub', 'symlink_install': False, 'test_result_base': None}
+[4.474s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[4.517s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[4.518s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/akash/new_ros_ws/src/cam_interface' with build type 'ament_cmake'
+[4.518s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/akash/new_ros_ws/src/cam_interface'
+[4.568s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[4.569s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.569s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.654s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/akash/new_ros_ws/src/gesture_interface' with build type 'ament_cmake'
+[4.655s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/akash/new_ros_ws/src/gesture_interface'
+[4.721s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.721s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.866s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/akash/new_ros_ws/build/cam_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/akash/new_ros_ws/build/cam_interface -- -j12 -l12
+[4.875s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/akash/new_ros_ws/build/gesture_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/akash/new_ros_ws/build/gesture_interface -- -j12 -l12
+[6.023s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/akash/new_ros_ws/build/cam_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/akash/new_ros_ws/build/cam_interface -- -j12 -l12
+[6.048s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/akash/new_ros_ws/build/gesture_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/akash/new_ros_ws/build/gesture_interface -- -j12 -l12
+[6.210s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/akash/new_ros_ws/build/cam_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/akash/new_ros_ws/build/cam_interface
+[6.219s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/akash/new_ros_ws/build/gesture_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/akash/new_ros_ws/build/gesture_interface
+[6.376s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cam_interface)
+[6.428s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/akash/new_ros_ws/build/cam_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/akash/new_ros_ws/build/cam_interface
+[6.471s] Level 1:colcon.colcon_core.environment:checking '/home/akash/new_ros_ws/install/cam_interface' for CMake module files
+[6.473s] Level 1:colcon.colcon_core.environment:checking '/home/akash/new_ros_ws/install/cam_interface' for CMake config files
+[6.473s] Level 1:colcon.colcon_core.shell:create_environment_hook('cam_interface', 'cmake_prefix_path')
+[6.516s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akash/new_ros_ws/install/cam_interface/share/cam_interface/hook/cmake_prefix_path.ps1'
+[6.517s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/akash/new_ros_ws/install/cam_interface/share/cam_interface/hook/cmake_prefix_path.dsv'
+[6.518s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akash/new_ros_ws/install/cam_interface/share/cam_interface/hook/cmake_prefix_path.sh'
+[6.520s] Level 1:colcon.colcon_core.environment:checking '/home/akash/new_ros_ws/install/cam_interface/lib'
+[6.520s] Level 1:colcon.colcon_core.shell:create_environment_hook('cam_interface', 'ld_library_path_lib')
+[6.577s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akash/new_ros_ws/install/cam_interface/share/cam_interface/hook/ld_library_path_lib.ps1'
+[6.577s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/akash/new_ros_ws/install/cam_interface/share/cam_interface/hook/ld_library_path_lib.dsv'
+[6.578s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akash/new_ros_ws/install/cam_interface/share/cam_interface/hook/ld_library_path_lib.sh'
+[6.579s] Level 1:colcon.colcon_core.environment:checking '/home/akash/new_ros_ws/install/cam_interface/bin'
+[6.579s] Level 1:colcon.colcon_core.environment:checking '/home/akash/new_ros_ws/install/cam_interface/lib/pkgconfig/cam_interface.pc'
+[6.579s] Level 1:colcon.colcon_core.environment:checking '/home/akash/new_ros_ws/install/cam_interface/lib/python3.10/site-packages'
+[6.580s] Level 1:colcon.colcon_core.environment:checking '/home/akash/new_ros_ws/install/cam_interface/bin'
+[6.626s] INFO:colcon.colcon_core.shell:Creating package script '/home/akash/new_ros_ws/install/cam_interface/share/cam_interface/package.ps1'
+[6.628s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/akash/new_ros_ws/install/cam_interface/share/cam_interface/package.dsv'
+[6.631s] INFO:colcon.colcon_core.shell:Creating package script '/home/akash/new_ros_ws/install/cam_interface/share/cam_interface/package.sh'
+[6.634s] INFO:colcon.colcon_core.shell:Creating package script '/home/akash/new_ros_ws/install/cam_interface/share/cam_interface/package.bash'
+[6.638s] INFO:colcon.colcon_core.shell:Creating package script '/home/akash/new_ros_ws/install/cam_interface/share/cam_interface/package.zsh'
+[6.640s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/akash/new_ros_ws/install/cam_interface/share/colcon-core/packages/cam_interface)
+[6.643s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gesture_interface)
+[6.645s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/akash/new_ros_ws/build/gesture_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/akash/new_ros_ws/build/gesture_interface
+[6.701s] Level 1:colcon.colcon_core.environment:checking '/home/akash/new_ros_ws/install/gesture_interface' for CMake module files
+[6.702s] Level 1:colcon.colcon_core.environment:checking '/home/akash/new_ros_ws/install/gesture_interface' for CMake config files
+[6.703s] Level 1:colcon.colcon_core.shell:create_environment_hook('gesture_interface', 'cmake_prefix_path')
+[6.751s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akash/new_ros_ws/install/gesture_interface/share/gesture_interface/hook/cmake_prefix_path.ps1'
+[6.752s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/akash/new_ros_ws/install/gesture_interface/share/gesture_interface/hook/cmake_prefix_path.dsv'
+[6.752s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akash/new_ros_ws/install/gesture_interface/share/gesture_interface/hook/cmake_prefix_path.sh'
+[6.754s] Level 1:colcon.colcon_core.environment:checking '/home/akash/new_ros_ws/install/gesture_interface/lib'
+[6.754s] Level 1:colcon.colcon_core.shell:create_environment_hook('gesture_interface', 'ld_library_path_lib')
+[6.806s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akash/new_ros_ws/install/gesture_interface/share/gesture_interface/hook/ld_library_path_lib.ps1'
+[6.807s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/akash/new_ros_ws/install/gesture_interface/share/gesture_interface/hook/ld_library_path_lib.dsv'
+[6.808s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akash/new_ros_ws/install/gesture_interface/share/gesture_interface/hook/ld_library_path_lib.sh'
+[6.809s] Level 1:colcon.colcon_core.environment:checking '/home/akash/new_ros_ws/install/gesture_interface/bin'
+[6.809s] Level 1:colcon.colcon_core.environment:checking '/home/akash/new_ros_ws/install/gesture_interface/lib/pkgconfig/gesture_interface.pc'
+[6.810s] Level 1:colcon.colcon_core.environment:checking '/home/akash/new_ros_ws/install/gesture_interface/lib/python3.10/site-packages'
+[6.810s] Level 1:colcon.colcon_core.environment:checking '/home/akash/new_ros_ws/install/gesture_interface/bin'
+[6.860s] INFO:colcon.colcon_core.shell:Creating package script '/home/akash/new_ros_ws/install/gesture_interface/share/gesture_interface/package.ps1'
+[6.862s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/akash/new_ros_ws/install/gesture_interface/share/gesture_interface/package.dsv'
+[6.863s] INFO:colcon.colcon_core.shell:Creating package script '/home/akash/new_ros_ws/install/gesture_interface/share/gesture_interface/package.sh'
+[6.865s] INFO:colcon.colcon_core.shell:Creating package script '/home/akash/new_ros_ws/install/gesture_interface/share/gesture_interface/package.bash'
+[6.866s] INFO:colcon.colcon_core.shell:Creating package script '/home/akash/new_ros_ws/install/gesture_interface/share/gesture_interface/package.zsh'
+[6.867s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/akash/new_ros_ws/install/gesture_interface/share/colcon-core/packages/gesture_interface)
+[6.914s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cam_interface)
+[6.955s] Level 1:colcon.colcon_core.environment:checking '/home/akash/new_ros_ws/install/cam_interface' for CMake module files
+[6.957s] Level 1:colcon.colcon_core.environment:checking '/home/akash/new_ros_ws/install/cam_interface' for CMake config files
+[6.958s] Level 1:colcon.colcon_core.shell:create_environment_hook('cam_interface', 'cmake_prefix_path')
+[7.064s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akash/new_ros_ws/install/cam_interface/share/cam_interface/hook/cmake_prefix_path.ps1'
+[7.065s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/akash/new_ros_ws/install/cam_interface/share/cam_interface/hook/cmake_prefix_path.dsv'
+[7.066s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akash/new_ros_ws/install/cam_interface/share/cam_interface/hook/cmake_prefix_path.sh'
+[7.067s] Level 1:colcon.colcon_core.environment:checking '/home/akash/new_ros_ws/install/cam_interface/lib'
+[7.067s] Level 1:colcon.colcon_core.shell:create_environment_hook('cam_interface', 'ld_library_path_lib')
+[7.111s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akash/new_ros_ws/install/cam_interface/share/cam_interface/hook/ld_library_path_lib.ps1'
+[7.112s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/akash/new_ros_ws/install/cam_interface/share/cam_interface/hook/ld_library_path_lib.dsv'
+[7.113s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akash/new_ros_ws/install/cam_interface/share/cam_interface/hook/ld_library_path_lib.sh'
+[7.115s] Level 1:colcon.colcon_core.environment:checking '/home/akash/new_ros_ws/install/cam_interface/bin'
+[7.115s] Level 1:colcon.colcon_core.environment:checking '/home/akash/new_ros_ws/install/cam_interface/lib/pkgconfig/cam_interface.pc'
+[7.116s] Level 1:colcon.colcon_core.environment:checking '/home/akash/new_ros_ws/install/cam_interface/lib/python3.10/site-packages'
+[7.116s] Level 1:colcon.colcon_core.environment:checking '/home/akash/new_ros_ws/install/cam_interface/bin'
+[7.181s] INFO:colcon.colcon_core.shell:Creating package script '/home/akash/new_ros_ws/install/cam_interface/share/cam_interface/package.ps1'
+[7.182s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/akash/new_ros_ws/install/cam_interface/share/cam_interface/package.dsv'
+[7.183s] INFO:colcon.colcon_core.shell:Creating package script '/home/akash/new_ros_ws/install/cam_interface/share/cam_interface/package.sh'
+[7.184s] INFO:colcon.colcon_core.shell:Creating package script '/home/akash/new_ros_ws/install/cam_interface/share/cam_interface/package.bash'
+[7.184s] INFO:colcon.colcon_core.shell:Creating package script '/home/akash/new_ros_ws/install/cam_interface/share/cam_interface/package.zsh'
+[7.185s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/akash/new_ros_ws/install/cam_interface/share/colcon-core/packages/cam_interface)
+[7.186s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/akash/new_ros_ws/src/cam_pub_sub' with build type 'ament_python'
+[7.187s] Level 1:colcon.colcon_core.shell:create_environment_hook('cam_pub_sub', 'ament_prefix_path')
+[7.228s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akash/new_ros_ws/install/cam_pub_sub/share/cam_pub_sub/hook/ament_prefix_path.ps1'
+[7.229s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/akash/new_ros_ws/install/cam_pub_sub/share/cam_pub_sub/hook/ament_prefix_path.dsv'
+[7.229s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akash/new_ros_ws/install/cam_pub_sub/share/cam_pub_sub/hook/ament_prefix_path.sh'
+[7.272s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.272s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.409s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gesture_interface)
+[7.464s] Level 1:colcon.colcon_core.environment:checking '/home/akash/new_ros_ws/install/gesture_interface' for CMake module files
+[7.468s] Level 1:colcon.colcon_core.environment:checking '/home/akash/new_ros_ws/install/gesture_interface' for CMake config files
+[7.469s] Level 1:colcon.colcon_core.shell:create_environment_hook('gesture_interface', 'cmake_prefix_path')
+[7.518s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akash/new_ros_ws/install/gesture_interface/share/gesture_interface/hook/cmake_prefix_path.ps1'
+[7.519s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/akash/new_ros_ws/install/gesture_interface/share/gesture_interface/hook/cmake_prefix_path.dsv'
+[7.520s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akash/new_ros_ws/install/gesture_interface/share/gesture_interface/hook/cmake_prefix_path.sh'
+[7.521s] Level 1:colcon.colcon_core.environment:checking '/home/akash/new_ros_ws/install/gesture_interface/lib'
+[7.521s] Level 1:colcon.colcon_core.shell:create_environment_hook('gesture_interface', 'ld_library_path_lib')
+[7.578s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akash/new_ros_ws/install/gesture_interface/share/gesture_interface/hook/ld_library_path_lib.ps1'
+[7.580s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/akash/new_ros_ws/install/gesture_interface/share/gesture_interface/hook/ld_library_path_lib.dsv'
+[7.580s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akash/new_ros_ws/install/gesture_interface/share/gesture_interface/hook/ld_library_path_lib.sh'
+[7.582s] Level 1:colcon.colcon_core.environment:checking '/home/akash/new_ros_ws/install/gesture_interface/bin'
+[7.582s] Level 1:colcon.colcon_core.environment:checking '/home/akash/new_ros_ws/install/gesture_interface/lib/pkgconfig/gesture_interface.pc'
+[7.583s] Level 1:colcon.colcon_core.environment:checking '/home/akash/new_ros_ws/install/gesture_interface/lib/python3.10/site-packages'
+[7.583s] Level 1:colcon.colcon_core.environment:checking '/home/akash/new_ros_ws/install/gesture_interface/bin'
+[7.639s] INFO:colcon.colcon_core.shell:Creating package script '/home/akash/new_ros_ws/install/gesture_interface/share/gesture_interface/package.ps1'
+[7.641s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/akash/new_ros_ws/install/gesture_interface/share/gesture_interface/package.dsv'
+[7.651s] INFO:colcon.colcon_core.shell:Creating package script '/home/akash/new_ros_ws/install/gesture_interface/share/gesture_interface/package.sh'
+[7.653s] INFO:colcon.colcon_core.shell:Creating package script '/home/akash/new_ros_ws/install/gesture_interface/share/gesture_interface/package.bash'
+[7.654s] INFO:colcon.colcon_core.shell:Creating package script '/home/akash/new_ros_ws/install/gesture_interface/share/gesture_interface/package.zsh'
+[7.655s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/akash/new_ros_ws/install/gesture_interface/share/colcon-core/packages/gesture_interface)
+[8.468s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/akash/new_ros_ws/src/cam_pub_sub'
+[8.513s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.513s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.926s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/akash/new_ros_ws/src/cam_pub_sub': AMENT_PREFIX_PATH=/home/akash/new_ros_ws/install/cam_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/akash/new_ros_ws/install/cam_interface LD_LIBRARY_PATH=/home/akash/new_ros_ws/install/cam_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/akash/new_ros_ws/build/cam_pub_sub/prefix_override:/home/akash/new_ros_ws/install/cam_pub_sub/lib/python3.10/site-packages:/home/akash/new_ros_ws/install/cam_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/cam_pub_sub build --build-base /home/akash/new_ros_ws/build/cam_pub_sub/build install --record /home/akash/new_ros_ws/build/cam_pub_sub/install.log --single-version-externally-managed
+[10.817s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/akash/new_ros_ws/src/cam_pub_sub' returned '0': AMENT_PREFIX_PATH=/home/akash/new_ros_ws/install/cam_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/akash/new_ros_ws/install/cam_interface LD_LIBRARY_PATH=/home/akash/new_ros_ws/install/cam_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/akash/new_ros_ws/build/cam_pub_sub/prefix_override:/home/akash/new_ros_ws/install/cam_pub_sub/lib/python3.10/site-packages:/home/akash/new_ros_ws/install/cam_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/cam_pub_sub build --build-base /home/akash/new_ros_ws/build/cam_pub_sub/build install --record /home/akash/new_ros_ws/build/cam_pub_sub/install.log --single-version-externally-managed
+[10.860s] Level 1:colcon.colcon_core.environment:checking '/home/akash/new_ros_ws/install/cam_pub_sub' for CMake module files
+[10.861s] Level 1:colcon.colcon_core.environment:checking '/home/akash/new_ros_ws/install/cam_pub_sub' for CMake config files
+[10.861s] Level 1:colcon.colcon_core.environment:checking '/home/akash/new_ros_ws/install/cam_pub_sub/lib'
+[10.862s] Level 1:colcon.colcon_core.environment:checking '/home/akash/new_ros_ws/install/cam_pub_sub/bin'
+[10.862s] Level 1:colcon.colcon_core.environment:checking '/home/akash/new_ros_ws/install/cam_pub_sub/lib/pkgconfig/cam_pub_sub.pc'
+[10.862s] Level 1:colcon.colcon_core.environment:checking '/home/akash/new_ros_ws/install/cam_pub_sub/lib/python3.10/site-packages'
+[10.862s] Level 1:colcon.colcon_core.shell:create_environment_hook('cam_pub_sub', 'pythonpath')
+[10.900s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akash/new_ros_ws/install/cam_pub_sub/share/cam_pub_sub/hook/pythonpath.ps1'
+[10.901s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/akash/new_ros_ws/install/cam_pub_sub/share/cam_pub_sub/hook/pythonpath.dsv'
+[10.901s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akash/new_ros_ws/install/cam_pub_sub/share/cam_pub_sub/hook/pythonpath.sh'
+[10.903s] Level 1:colcon.colcon_core.environment:checking '/home/akash/new_ros_ws/install/cam_pub_sub/bin'
+[10.903s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cam_pub_sub)
+[10.940s] INFO:colcon.colcon_core.shell:Creating package script '/home/akash/new_ros_ws/install/cam_pub_sub/share/cam_pub_sub/package.ps1'
+[10.940s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/akash/new_ros_ws/install/cam_pub_sub/share/cam_pub_sub/package.dsv'
+[10.941s] INFO:colcon.colcon_core.shell:Creating package script '/home/akash/new_ros_ws/install/cam_pub_sub/share/cam_pub_sub/package.sh'
+[10.942s] INFO:colcon.colcon_core.shell:Creating package script '/home/akash/new_ros_ws/install/cam_pub_sub/share/cam_pub_sub/package.bash'
+[10.942s] INFO:colcon.colcon_core.shell:Creating package script '/home/akash/new_ros_ws/install/cam_pub_sub/share/cam_pub_sub/package.zsh'
+[10.944s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/akash/new_ros_ws/install/cam_pub_sub/share/colcon-core/packages/cam_pub_sub)
+[10.946s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/akash/new_ros_ws/src/gesture_pub_sub' with build type 'ament_python'
+[10.947s] Level 1:colcon.colcon_core.shell:create_environment_hook('gesture_pub_sub', 'ament_prefix_path')
+[10.988s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akash/new_ros_ws/install/gesture_pub_sub/share/gesture_pub_sub/hook/ament_prefix_path.ps1'
+[10.990s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/akash/new_ros_ws/install/gesture_pub_sub/share/gesture_pub_sub/hook/ament_prefix_path.dsv'
+[10.991s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akash/new_ros_ws/install/gesture_pub_sub/share/gesture_pub_sub/hook/ament_prefix_path.sh'
+[11.038s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[11.038s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[13.345s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/akash/new_ros_ws/src/gesture_pub_sub'
+[13.419s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[13.419s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[15.955s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/akash/new_ros_ws/src/gesture_pub_sub': AMENT_PREFIX_PATH=/home/akash/new_ros_ws/install/cam_pub_sub:/home/akash/new_ros_ws/install/gesture_interface:/home/akash/new_ros_ws/install/cam_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/akash/new_ros_ws/install/gesture_interface:/home/akash/new_ros_ws/install/cam_interface LD_LIBRARY_PATH=/home/akash/new_ros_ws/install/gesture_interface/lib:/home/akash/new_ros_ws/install/cam_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/akash/new_ros_ws/build/gesture_pub_sub/prefix_override:/home/akash/new_ros_ws/install/gesture_pub_sub/lib/python3.10/site-packages:/home/akash/new_ros_ws/install/cam_pub_sub/lib/python3.10/site-packages:/home/akash/new_ros_ws/install/gesture_interface/local/lib/python3.10/dist-packages:/home/akash/new_ros_ws/install/cam_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/gesture_pub_sub build --build-base /home/akash/new_ros_ws/build/gesture_pub_sub/build install --record /home/akash/new_ros_ws/build/gesture_pub_sub/install.log --install-scripts $base/lib/gesture_pub_sub --single-version-externally-managed
+[16.762s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/akash/new_ros_ws/src/gesture_pub_sub' returned '0': AMENT_PREFIX_PATH=/home/akash/new_ros_ws/install/cam_pub_sub:/home/akash/new_ros_ws/install/gesture_interface:/home/akash/new_ros_ws/install/cam_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/akash/new_ros_ws/install/gesture_interface:/home/akash/new_ros_ws/install/cam_interface LD_LIBRARY_PATH=/home/akash/new_ros_ws/install/gesture_interface/lib:/home/akash/new_ros_ws/install/cam_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/akash/new_ros_ws/build/gesture_pub_sub/prefix_override:/home/akash/new_ros_ws/install/gesture_pub_sub/lib/python3.10/site-packages:/home/akash/new_ros_ws/install/cam_pub_sub/lib/python3.10/site-packages:/home/akash/new_ros_ws/install/gesture_interface/local/lib/python3.10/dist-packages:/home/akash/new_ros_ws/install/cam_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/gesture_pub_sub build --build-base /home/akash/new_ros_ws/build/gesture_pub_sub/build install --record /home/akash/new_ros_ws/build/gesture_pub_sub/install.log --install-scripts $base/lib/gesture_pub_sub --single-version-externally-managed
+[16.800s] Level 1:colcon.colcon_core.environment:checking '/home/akash/new_ros_ws/install/gesture_pub_sub' for CMake module files
+[16.801s] Level 1:colcon.colcon_core.environment:checking '/home/akash/new_ros_ws/install/gesture_pub_sub' for CMake config files
+[16.802s] Level 1:colcon.colcon_core.environment:checking '/home/akash/new_ros_ws/install/gesture_pub_sub/lib'
+[16.802s] Level 1:colcon.colcon_core.environment:checking '/home/akash/new_ros_ws/install/gesture_pub_sub/bin'
+[16.803s] Level 1:colcon.colcon_core.environment:checking '/home/akash/new_ros_ws/install/gesture_pub_sub/lib/pkgconfig/gesture_pub_sub.pc'
+[16.803s] Level 1:colcon.colcon_core.environment:checking '/home/akash/new_ros_ws/install/gesture_pub_sub/lib/python3.10/site-packages'
+[16.804s] Level 1:colcon.colcon_core.shell:create_environment_hook('gesture_pub_sub', 'pythonpath')
+[16.888s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akash/new_ros_ws/install/gesture_pub_sub/share/gesture_pub_sub/hook/pythonpath.ps1'
+[16.889s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/akash/new_ros_ws/install/gesture_pub_sub/share/gesture_pub_sub/hook/pythonpath.dsv'
+[16.890s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/akash/new_ros_ws/install/gesture_pub_sub/share/gesture_pub_sub/hook/pythonpath.sh'
+[16.891s] Level 1:colcon.colcon_core.environment:checking '/home/akash/new_ros_ws/install/gesture_pub_sub/bin'
+[16.891s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gesture_pub_sub)
+[16.958s] INFO:colcon.colcon_core.shell:Creating package script '/home/akash/new_ros_ws/install/gesture_pub_sub/share/gesture_pub_sub/package.ps1'
+[16.959s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/akash/new_ros_ws/install/gesture_pub_sub/share/gesture_pub_sub/package.dsv'
+[16.960s] INFO:colcon.colcon_core.shell:Creating package script '/home/akash/new_ros_ws/install/gesture_pub_sub/share/gesture_pub_sub/package.sh'
+[16.960s] INFO:colcon.colcon_core.shell:Creating package script '/home/akash/new_ros_ws/install/gesture_pub_sub/share/gesture_pub_sub/package.bash'
+[16.961s] INFO:colcon.colcon_core.shell:Creating package script '/home/akash/new_ros_ws/install/gesture_pub_sub/share/gesture_pub_sub/package.zsh'
+[16.961s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/akash/new_ros_ws/install/gesture_pub_sub/share/colcon-core/packages/gesture_pub_sub)
+[16.962s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[16.962s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[16.963s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[16.963s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[17.201s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[17.202s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[17.202s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[17.202s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[17.202s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.FileNotFound: Failed to connect to socket /run/user/1000/bus: No such file or directory
+[17.203s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[17.239s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/akash/new_ros_ws/install/local_setup.ps1'
+[17.241s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/akash/new_ros_ws/install/_local_setup_util_ps1.py'
+[17.243s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/akash/new_ros_ws/install/setup.ps1'
+[17.275s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/akash/new_ros_ws/install/local_setup.sh'
+[17.276s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/akash/new_ros_ws/install/_local_setup_util_sh.py'
+[17.277s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/akash/new_ros_ws/install/setup.sh'
+[17.315s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/akash/new_ros_ws/install/local_setup.bash'
+[17.316s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/akash/new_ros_ws/install/setup.bash'
+[17.364s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/akash/new_ros_ws/install/local_setup.zsh'
+[17.365s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/akash/new_ros_ws/install/setup.zsh'

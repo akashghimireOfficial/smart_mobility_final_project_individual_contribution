@@ -1,0 +1,6 @@
+{
+  "package_name": "gesture_interface",
+  "non_idl_tuples": [
+    "/home/akash/new_ros_ws/src/gesture_interface:msg/GestureTopic.msg"
+  ]
+}

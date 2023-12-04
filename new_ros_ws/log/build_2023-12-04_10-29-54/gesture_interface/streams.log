@@ -1,0 +1,142 @@
+[0.152s] Invoking command in '/home/akash/new_ros_ws/build/gesture_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/akash/new_ros_ws/install/gesture_pub_sub:/home/akash/new_ros_ws/install/cam_pub_sub:/opt/ros/humble /usr/bin/cmake --build /home/akash/new_ros_ws/build/gesture_interface -- -j12 -l12
+[0.241s] [  3%] Built target gesture_interface__cpp
+[0.244s] [ 12%] Built target gesture_interface__rosidl_generator_c
+[0.266s] [ 12%] Built target ament_cmake_python_copy_gesture_interface
+[0.304s] [ 22%] Built target gesture_interface__rosidl_typesupport_cpp
+[0.307s] [ 32%] Built target gesture_interface__rosidl_typesupport_introspection_cpp
+[0.310s] [ 41%] Built target gesture_interface__rosidl_typesupport_fastrtps_c
+[0.311s] [ 54%] Built target gesture_interface__rosidl_typesupport_fastrtps_cpp
+[0.312s] [ 61%] Built target gesture_interface__rosidl_typesupport_c
+[0.317s] [ 70%] Built target gesture_interface__rosidl_typesupport_introspection_c
+[0.357s] [ 70%] Built target gesture_interface
+[0.390s] [ 74%] Built target gesture_interface__py
+[0.431s] [ 80%] Built target gesture_interface__rosidl_generator_py
+[0.474s] [ 87%] Built target gesture_interface__rosidl_typesupport_fastrtps_c__pyext
+[0.475s] [ 93%] Built target gesture_interface__rosidl_typesupport_introspection_c__pyext
+[0.479s] [100%] Built target gesture_interface__rosidl_typesupport_c__pyext
+[0.862s] running egg_info
+[0.864s] writing gesture_interface.egg-info/PKG-INFO
+[0.864s] writing dependency_links to gesture_interface.egg-info/dependency_links.txt
+[0.865s] writing top-level names to gesture_interface.egg-info/top_level.txt
+[0.870s] reading manifest file 'gesture_interface.egg-info/SOURCES.txt'
+[0.876s] writing manifest file 'gesture_interface.egg-info/SOURCES.txt'
+[0.936s] [100%] Built target ament_cmake_python_build_gesture_interface_egg
+[0.960s] Invoked command in '/home/akash/new_ros_ws/build/gesture_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/akash/new_ros_ws/install/gesture_pub_sub:/home/akash/new_ros_ws/install/cam_pub_sub:/opt/ros/humble /usr/bin/cmake --build /home/akash/new_ros_ws/build/gesture_interface -- -j12 -l12
+[1.110s] Invoking command in '/home/akash/new_ros_ws/build/gesture_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/akash/new_ros_ws/install/gesture_pub_sub:/home/akash/new_ros_ws/install/cam_pub_sub:/opt/ros/humble /usr/bin/cmake --install /home/akash/new_ros_ws/build/gesture_interface
+[1.129s] -- Install configuration: ""
+[1.130s] -- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/share/ament_index/resource_index/rosidl_interfaces/gesture_interface
+[1.131s] -- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/include/gesture_interface/gesture_interface
+[1.131s] -- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/include/gesture_interface/gesture_interface/msg
+[1.132s] -- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/include/gesture_interface/gesture_interface/msg/rosidl_generator_c__visibility_control.h
+[1.132s] -- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/include/gesture_interface/gesture_interface/msg/gesture_topic.h
+[1.132s] -- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/include/gesture_interface/gesture_interface/msg/detail
+[1.133s] -- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/include/gesture_interface/gesture_interface/msg/detail/gesture_topic__functions.c
+[1.134s] -- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/include/gesture_interface/gesture_interface/msg/detail/gesture_topic__type_support.h
+[1.134s] -- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/include/gesture_interface/gesture_interface/msg/detail/gesture_topic__struct.h
+[1.135s] -- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/include/gesture_interface/gesture_interface/msg/detail/gesture_topic__functions.h
+[1.135s] -- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/share/gesture_interface/environment/library_path.sh
+[1.136s] -- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/share/gesture_interface/environment/library_path.dsv
+[1.137s] -- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/lib/libgesture_interface__rosidl_generator_c.so
+[1.139s] -- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/include/gesture_interface/gesture_interface
+[1.140s] -- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/include/gesture_interface/gesture_interface/msg
+[1.140s] -- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/include/gesture_interface/gesture_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.141s] -- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/include/gesture_interface/gesture_interface/msg/detail
+[1.141s] -- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/include/gesture_interface/gesture_interface/msg/detail/gesture_topic__rosidl_typesupport_fastrtps_c.h
+[1.142s] -- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/lib/libgesture_interface__rosidl_typesupport_fastrtps_c.so
+[1.143s] -- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/include/gesture_interface/gesture_interface
+[1.143s] -- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/include/gesture_interface/gesture_interface/msg
+[1.144s] -- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/include/gesture_interface/gesture_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.144s] -- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/include/gesture_interface/gesture_interface/msg/detail
+[1.146s] -- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/include/gesture_interface/gesture_interface/msg/detail/gesture_topic__type_support.c
+[1.146s] -- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/include/gesture_interface/gesture_interface/msg/detail/gesture_topic__rosidl_typesupport_introspection_c.h
+[1.147s] -- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/lib/libgesture_interface__rosidl_typesupport_introspection_c.so
+[1.147s] -- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/lib/libgesture_interface__rosidl_typesupport_c.so
+[1.147s] -- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/include/gesture_interface/gesture_interface
+[1.148s] -- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/include/gesture_interface/gesture_interface/msg
+[1.148s] -- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/include/gesture_interface/gesture_interface/msg/gesture_topic.hpp
+[1.149s] -- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/include/gesture_interface/gesture_interface/msg/detail
+[1.149s] -- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/include/gesture_interface/gesture_interface/msg/detail/gesture_topic__struct.hpp
+[1.150s] -- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/include/gesture_interface/gesture_interface/msg/detail/gesture_topic__traits.hpp
+[1.150s] -- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/include/gesture_interface/gesture_interface/msg/detail/gesture_topic__builder.hpp
+[1.151s] -- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/include/gesture_interface/gesture_interface
+[1.151s] -- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/include/gesture_interface/gesture_interface/msg
+[1.151s] -- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/include/gesture_interface/gesture_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.151s] -- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/include/gesture_interface/gesture_interface/msg/detail
+[1.151s] -- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/include/gesture_interface/gesture_interface/msg/detail/dds_fastrtps
+[1.151s] -- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/include/gesture_interface/gesture_interface/msg/detail/gesture_topic__rosidl_typesupport_fastrtps_cpp.hpp
+[1.156s] -- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/lib/libgesture_interface__rosidl_typesupport_fastrtps_cpp.so
+[1.156s] -- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/include/gesture_interface/gesture_interface
+[1.157s] -- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/include/gesture_interface/gesture_interface/msg
+[1.157s] -- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/include/gesture_interface/gesture_interface/msg/detail
+[1.157s] -- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/include/gesture_interface/gesture_interface/msg/detail/gesture_topic__rosidl_typesupport_introspection_cpp.hpp
+[1.158s] -- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/include/gesture_interface/gesture_interface/msg/detail/gesture_topic__type_support.cpp
+[1.158s] -- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/lib/libgesture_interface__rosidl_typesupport_introspection_cpp.so
+[1.158s] -- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/lib/libgesture_interface__rosidl_typesupport_cpp.so
+[1.158s] -- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/share/gesture_interface/environment/pythonpath.sh
+[1.159s] -- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/share/gesture_interface/environment/pythonpath.dsv
+[1.159s] -- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/local/lib/python3.10/dist-packages/gesture_interface-0.0.0-py3.10.egg-info
+[1.159s] -- Installing: /home/akash/new_ros_ws/install/gesture_interface/local/lib/python3.10/dist-packages/gesture_interface-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.159s] -- Installing: /home/akash/new_ros_ws/install/gesture_interface/local/lib/python3.10/dist-packages/gesture_interface-0.0.0-py3.10.egg-info/top_level.txt
+[1.160s] -- Installing: /home/akash/new_ros_ws/install/gesture_interface/local/lib/python3.10/dist-packages/gesture_interface-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.160s] -- Installing: /home/akash/new_ros_ws/install/gesture_interface/local/lib/python3.10/dist-packages/gesture_interface-0.0.0-py3.10.egg-info/PKG-INFO
+[1.160s] -- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/local/lib/python3.10/dist-packages/gesture_interface
+[1.160s] -- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/local/lib/python3.10/dist-packages/gesture_interface/gesture_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.161s] -- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/local/lib/python3.10/dist-packages/gesture_interface/gesture_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.161s] -- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/local/lib/python3.10/dist-packages/gesture_interface/_gesture_interface_s.ep.rosidl_typesupport_c.c
+[1.161s] -- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/local/lib/python3.10/dist-packages/gesture_interface/_gesture_interface_s.ep.rosidl_typesupport_introspection_c.c
+[1.161s] -- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/local/lib/python3.10/dist-packages/gesture_interface/__init__.py
+[1.162s] -- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/local/lib/python3.10/dist-packages/gesture_interface/_gesture_interface_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.162s] -- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/local/lib/python3.10/dist-packages/gesture_interface/libgesture_interface__rosidl_generator_py.so
+[1.162s] -- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/local/lib/python3.10/dist-packages/gesture_interface/gesture_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.162s] -- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/local/lib/python3.10/dist-packages/gesture_interface/msg
+[1.163s] -- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/local/lib/python3.10/dist-packages/gesture_interface/msg/__init__.py
+[1.163s] -- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/local/lib/python3.10/dist-packages/gesture_interface/msg/_gesture_topic.py
+[1.163s] -- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/local/lib/python3.10/dist-packages/gesture_interface/msg/_gesture_topic_s.c
+[1.215s] Listing '/home/akash/new_ros_ws/install/gesture_interface/local/lib/python3.10/dist-packages/gesture_interface'...
+[1.215s] Listing '/home/akash/new_ros_ws/install/gesture_interface/local/lib/python3.10/dist-packages/gesture_interface/msg'...
+[1.226s] -- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/local/lib/python3.10/dist-packages/gesture_interface/gesture_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.226s] -- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/local/lib/python3.10/dist-packages/gesture_interface/gesture_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.227s] -- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/local/lib/python3.10/dist-packages/gesture_interface/gesture_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.228s] -- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/lib/libgesture_interface__rosidl_generator_py.so
+[1.228s] -- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/share/gesture_interface/msg/GestureTopic.idl
+[1.229s] -- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/share/gesture_interface/msg/GestureTopic.msg
+[1.229s] -- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/share/ament_index/resource_index/package_run_dependencies/gesture_interface
+[1.229s] -- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/share/ament_index/resource_index/parent_prefix_path/gesture_interface
+[1.231s] -- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/share/gesture_interface/environment/ament_prefix_path.sh
+[1.231s] -- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/share/gesture_interface/environment/ament_prefix_path.dsv
+[1.232s] -- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/share/gesture_interface/environment/path.sh
+[1.232s] -- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/share/gesture_interface/environment/path.dsv
+[1.233s] -- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/share/gesture_interface/local_setup.bash
+[1.233s] -- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/share/gesture_interface/local_setup.sh
+[1.233s] -- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/share/gesture_interface/local_setup.zsh
+[1.234s] -- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/share/gesture_interface/local_setup.dsv
+[1.235s] -- Installing: /home/akash/new_ros_ws/install/gesture_interface/share/gesture_interface/package.dsv
+[1.236s] -- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/share/ament_index/resource_index/packages/gesture_interface
+[1.236s] -- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/share/gesture_interface/cmake/export_gesture_interface__rosidl_generator_cExport.cmake
+[1.236s] -- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/share/gesture_interface/cmake/export_gesture_interface__rosidl_generator_cExport-noconfig.cmake
+[1.236s] -- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/share/gesture_interface/cmake/export_gesture_interface__rosidl_typesupport_fastrtps_cExport.cmake
+[1.237s] -- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/share/gesture_interface/cmake/export_gesture_interface__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[1.237s] -- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/share/gesture_interface/cmake/gesture_interface__rosidl_typesupport_introspection_cExport.cmake
+[1.237s] -- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/share/gesture_interface/cmake/gesture_interface__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.237s] -- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/share/gesture_interface/cmake/gesture_interface__rosidl_typesupport_cExport.cmake
+[1.238s] -- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/share/gesture_interface/cmake/gesture_interface__rosidl_typesupport_cExport-noconfig.cmake
+[1.238s] -- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/share/gesture_interface/cmake/export_gesture_interface__rosidl_generator_cppExport.cmake
+[1.239s] -- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/share/gesture_interface/cmake/export_gesture_interface__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.239s] -- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/share/gesture_interface/cmake/export_gesture_interface__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[1.240s] -- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/share/gesture_interface/cmake/gesture_interface__rosidl_typesupport_introspection_cppExport.cmake
+[1.240s] -- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/share/gesture_interface/cmake/gesture_interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.241s] -- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/share/gesture_interface/cmake/gesture_interface__rosidl_typesupport_cppExport.cmake
+[1.241s] -- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/share/gesture_interface/cmake/gesture_interface__rosidl_typesupport_cppExport-noconfig.cmake
+[1.241s] -- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/share/gesture_interface/cmake/export_gesture_interface__rosidl_generator_pyExport.cmake
+[1.241s] -- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/share/gesture_interface/cmake/export_gesture_interface__rosidl_generator_pyExport-noconfig.cmake
+[1.241s] -- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/share/gesture_interface/cmake/rosidl_cmake-extras.cmake
+[1.242s] -- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/share/gesture_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.242s] -- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/share/gesture_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[1.243s] -- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/share/gesture_interface/cmake/ament_cmake_export_targets-extras.cmake
+[1.243s] -- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/share/gesture_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.244s] -- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/share/gesture_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.244s] -- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/share/gesture_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.245s] -- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/share/gesture_interface/cmake/gesture_interfaceConfig.cmake
+[1.245s] -- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/share/gesture_interface/cmake/gesture_interfaceConfig-version.cmake
+[1.245s] -- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/share/gesture_interface/package.xml
+[1.267s] Invoked command in '/home/akash/new_ros_ws/build/gesture_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/akash/new_ros_ws/install/gesture_pub_sub:/home/akash/new_ros_ws/install/cam_pub_sub:/opt/ros/humble /usr/bin/cmake --install /home/akash/new_ros_ws/build/gesture_interface

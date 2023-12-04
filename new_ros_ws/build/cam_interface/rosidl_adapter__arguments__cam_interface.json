@@ -1,0 +1,6 @@
+{
+  "package_name": "cam_interface",
+  "non_idl_tuples": [
+    "/home/akash/new_ros_ws/src/cam_interface:msg/CamTopic.msg"
+  ]
+}

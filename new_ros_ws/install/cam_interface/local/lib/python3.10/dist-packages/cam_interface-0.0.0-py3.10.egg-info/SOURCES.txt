@@ -1,0 +1,8 @@
+setup.py
+cam_interface/__init__.py
+cam_interface.egg-info/PKG-INFO
+cam_interface.egg-info/SOURCES.txt
+cam_interface.egg-info/dependency_links.txt
+cam_interface.egg-info/top_level.txt
+cam_interface/msg/__init__.py
+cam_interface/msg/_cam_topic.py

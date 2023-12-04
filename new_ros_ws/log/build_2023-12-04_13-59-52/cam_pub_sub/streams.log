@@ -1,0 +1,24 @@
+[2.734s] Invoking command in '/home/akash/new_ros_ws/src/cam_pub_sub': AMENT_PREFIX_PATH=/home/akash/new_ros_ws/install/cam_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/akash/new_ros_ws/install/cam_interface LD_LIBRARY_PATH=/home/akash/new_ros_ws/install/cam_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/akash/new_ros_ws/build/cam_pub_sub/prefix_override:/home/akash/new_ros_ws/install/cam_pub_sub/lib/python3.10/site-packages:/home/akash/new_ros_ws/install/cam_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/cam_pub_sub build --build-base /home/akash/new_ros_ws/build/cam_pub_sub/build install --record /home/akash/new_ros_ws/build/cam_pub_sub/install.log --single-version-externally-managed
+[3.467s] running egg_info
+[3.469s] writing ../../build/cam_pub_sub/cam_pub_sub.egg-info/PKG-INFO
+[3.470s] writing dependency_links to ../../build/cam_pub_sub/cam_pub_sub.egg-info/dependency_links.txt
+[3.471s] writing entry points to ../../build/cam_pub_sub/cam_pub_sub.egg-info/entry_points.txt
+[3.472s] writing requirements to ../../build/cam_pub_sub/cam_pub_sub.egg-info/requires.txt
+[3.473s] writing top-level names to ../../build/cam_pub_sub/cam_pub_sub.egg-info/top_level.txt
+[3.478s] reading manifest file '../../build/cam_pub_sub/cam_pub_sub.egg-info/SOURCES.txt'
+[3.482s] writing manifest file '../../build/cam_pub_sub/cam_pub_sub.egg-info/SOURCES.txt'
+[3.482s] running build
+[3.482s] running build_py
+[3.483s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[3.483s]   warnings.warn(
+[3.483s] running install
+[3.484s] running install_lib
+[3.486s] running install_data
+[3.487s] running install_egg_info
+[3.490s] removing '/home/akash/new_ros_ws/install/cam_pub_sub/lib/python3.10/site-packages/cam_pub_sub-0.0.0-py3.10.egg-info' (and everything under it)
+[3.491s] Copying ../../build/cam_pub_sub/cam_pub_sub.egg-info to /home/akash/new_ros_ws/install/cam_pub_sub/lib/python3.10/site-packages/cam_pub_sub-0.0.0-py3.10.egg-info
+[3.495s] running install_scripts
+[3.558s] Installing cam_pub script to /home/akash/new_ros_ws/install/cam_pub_sub/lib/cam_pub_sub
+[3.559s] Installing cam_sub script to /home/akash/new_ros_ws/install/cam_pub_sub/lib/cam_pub_sub
+[3.559s] writing list of installed files to '/home/akash/new_ros_ws/build/cam_pub_sub/install.log'
+[3.625s] Invoked command in '/home/akash/new_ros_ws/src/cam_pub_sub' returned '0': AMENT_PREFIX_PATH=/home/akash/new_ros_ws/install/cam_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/akash/new_ros_ws/install/cam_interface LD_LIBRARY_PATH=/home/akash/new_ros_ws/install/cam_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/akash/new_ros_ws/build/cam_pub_sub/prefix_override:/home/akash/new_ros_ws/install/cam_pub_sub/lib/python3.10/site-packages:/home/akash/new_ros_ws/install/cam_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/cam_pub_sub build --build-base /home/akash/new_ros_ws/build/cam_pub_sub/build install --record /home/akash/new_ros_ws/build/cam_pub_sub/install.log --single-version-externally-managed

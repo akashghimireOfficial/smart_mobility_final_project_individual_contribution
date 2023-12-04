@@ -1,0 +1,24 @@
+[5.101s] Invoking command in '/home/akash/new_ros_ws/src/cam_pub_sub': CMAKE_PREFIX_PATH=/home/akash/new_ros_ws/install/cam_interface:/home/akash/new_ros_ws/install/gesture_interface LD_LIBRARY_PATH=/home/akash/new_ros_ws/install/cam_interface/lib:/home/akash/new_ros_ws/install/gesture_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/akash/new_ros_ws/build/cam_pub_sub/prefix_override:/home/akash/new_ros_ws/install/cam_pub_sub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/cam_pub_sub build --build-base /home/akash/new_ros_ws/build/cam_pub_sub/build install --record /home/akash/new_ros_ws/build/cam_pub_sub/install.log --single-version-externally-managed
+[6.080s] running egg_info
+[6.085s] writing ../../build/cam_pub_sub/cam_pub_sub.egg-info/PKG-INFO
+[6.085s] writing dependency_links to ../../build/cam_pub_sub/cam_pub_sub.egg-info/dependency_links.txt
+[6.087s] writing entry points to ../../build/cam_pub_sub/cam_pub_sub.egg-info/entry_points.txt
+[6.092s] writing requirements to ../../build/cam_pub_sub/cam_pub_sub.egg-info/requires.txt
+[6.092s] writing top-level names to ../../build/cam_pub_sub/cam_pub_sub.egg-info/top_level.txt
+[6.105s] reading manifest file '../../build/cam_pub_sub/cam_pub_sub.egg-info/SOURCES.txt'
+[6.119s] writing manifest file '../../build/cam_pub_sub/cam_pub_sub.egg-info/SOURCES.txt'
+[6.120s] running build
+[6.121s] running build_py
+[6.121s] running install
+[6.121s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[6.122s]   warnings.warn(
+[6.122s] running install_lib
+[6.125s] running install_data
+[6.128s] running install_egg_info
+[6.137s] removing '/home/akash/new_ros_ws/install/cam_pub_sub/lib/python3.10/site-packages/cam_pub_sub-0.0.0-py3.10.egg-info' (and everything under it)
+[6.138s] Copying ../../build/cam_pub_sub/cam_pub_sub.egg-info to /home/akash/new_ros_ws/install/cam_pub_sub/lib/python3.10/site-packages/cam_pub_sub-0.0.0-py3.10.egg-info
+[6.140s] running install_scripts
+[6.244s] Installing cam_pub script to /home/akash/new_ros_ws/install/cam_pub_sub/lib/cam_pub_sub
+[6.245s] Installing cam_sub script to /home/akash/new_ros_ws/install/cam_pub_sub/lib/cam_pub_sub
+[6.246s] writing list of installed files to '/home/akash/new_ros_ws/build/cam_pub_sub/install.log'
+[6.335s] Invoked command in '/home/akash/new_ros_ws/src/cam_pub_sub' returned '0': CMAKE_PREFIX_PATH=/home/akash/new_ros_ws/install/cam_interface:/home/akash/new_ros_ws/install/gesture_interface LD_LIBRARY_PATH=/home/akash/new_ros_ws/install/cam_interface/lib:/home/akash/new_ros_ws/install/gesture_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/akash/new_ros_ws/build/cam_pub_sub/prefix_override:/home/akash/new_ros_ws/install/cam_pub_sub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/cam_pub_sub build --build-base /home/akash/new_ros_ws/build/cam_pub_sub/build install --record /home/akash/new_ros_ws/build/cam_pub_sub/install.log --single-version-externally-managed
