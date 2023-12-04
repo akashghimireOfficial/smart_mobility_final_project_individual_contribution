@@ -12,7 +12,7 @@ import click
 
 class ges_pub(Node):
 
-    def __init__(self,vdo_adr):
+    def __init__(self):
         super().__init__('gesture_publisher')
         self.publisher_ = self.create_publisher(GestureTopic, 'gesture_topic', 10)
         timer_period = 0.5  # seconds
@@ -22,7 +22,7 @@ class ges_pub(Node):
         self.br = CvBridge()
 
         self.gestture_msg=GestureTopic()
-        self.vdo_adr=vdo_adr
+        self.vdo_adr='video/test.mp4'
         self.cap = cv2.VideoCapture(self.vdo_adr)  
     
 
@@ -128,15 +128,14 @@ class ges_pub(Node):
         
 
 
-@click.command() # use of click command
-@click.option('--vdo_adr', default='video/test.mp4', help='Address of video file.')
 
 
+click.echo(click.style('Running Gesture Publisher', fg='green'))
 
-def main(vdo_adr):
+def main(args=None):
     try:
-        rclpy.init()
-        gesture_publisher = ges_pub(vdo_adr)
+        rclpy.init(args=args)
+        gesture_publisher = ges_pub()
         rclpy.spin(gesture_publisher)
     except Exception as e:
         print(f"An error occurred: {e}")  # Print the error message
