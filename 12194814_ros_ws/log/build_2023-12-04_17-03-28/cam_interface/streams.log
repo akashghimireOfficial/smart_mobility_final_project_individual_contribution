@@ -1,0 +1,194 @@
+[0.245s] Invoking command in '/home/akash/final_project_sme_lab_12194814/12194814_ros_ws/build/cam_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/akash/new_ros_ws/install/gesture_pub_sub:/home/akash/new_ros_ws/install/cam_pub_sub:/opt/ros/humble /usr/bin/cmake --build /home/akash/final_project_sme_lab_12194814/12194814_ros_ws/build/cam_interface -- -j12 -l12
+[0.300s] [0mCMake Error: The current CMakeCache.txt directory /home/akash/final_project_sme_lab_12194814/12194814_ros_ws/build/cam_interface/CMakeCache.txt is different than the directory /home/akash/new_ros_ws/build/cam_interface where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
+[0.372s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.715s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.726s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.738s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.147s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.223s] -- Found std_msgs: 4.2.3 (/opt/ros/humble/share/std_msgs/cmake)
+[1.369s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[2.209s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.795s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.811s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.875s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[3.936s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.937s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[3.937s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[4.084s] -- Configuring done
+[4.178s] -- Generating done
+[4.186s] -- Build files have been written to: /home/akash/new_ros_ws/build/cam_interface
+[4.235s] [35m[1mConsolidate compiler generated dependencies of target cam_interface__rosidl_generator_c[0m
+[4.249s] [  3%] Built target cam_interface__cpp
+[4.258s] [  6%] [32mBuilding C object CMakeFiles/cam_interface__rosidl_generator_c.dir/rosidl_generator_c/cam_interface/msg/detail/cam_topic__functions.c.o[0m
+[4.275s] [35m[1mConsolidate compiler generated dependencies of target cam_interface__rosidl_typesupport_fastrtps_cpp[0m
+[4.275s] [  6%] Built target ament_cmake_python_copy_cam_interface
+[4.276s] [35m[1mConsolidate compiler generated dependencies of target cam_interface__rosidl_typesupport_cpp[0m
+[4.276s] [35m[1mConsolidate compiler generated dependencies of target cam_interface__rosidl_typesupport_introspection_cpp[0m
+[4.300s] [ 12%] [32mBuilding CXX object CMakeFiles/cam_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/cam_interface/msg/detail/dds_fastrtps/cam_topic__type_support.cpp.o[0m
+[4.301s] [ 12%] [32mBuilding CXX object CMakeFiles/cam_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/cam_interface/msg/cam_topic__type_support.cpp.o[0m
+[4.303s] [ 16%] [32mBuilding CXX object CMakeFiles/cam_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/cam_interface/msg/detail/cam_topic__type_support.cpp.o[0m
+[4.389s] [ 19%] [32m[1mLinking C shared library libcam_interface__rosidl_generator_c.so[0m
+[4.789s] [ 22%] Built target cam_interface__rosidl_generator_c
+[4.811s] [35m[1mConsolidate compiler generated dependencies of target cam_interface__rosidl_typesupport_c[0m
+[4.811s] [35m[1mConsolidate compiler generated dependencies of target cam_interface__rosidl_typesupport_introspection_c[0m
+[4.816s] [35m[1mConsolidate compiler generated dependencies of target cam_interface__rosidl_typesupport_fastrtps_c[0m
+[4.835s] [ 25%] [32mBuilding CXX object CMakeFiles/cam_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/cam_interface/msg/cam_topic__type_support.cpp.o[0m
+[4.836s] [ 29%] [32mBuilding C object CMakeFiles/cam_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/cam_interface/msg/detail/cam_topic__type_support.c.o[0m
+[4.847s] [ 32%] [32mBuilding CXX object CMakeFiles/cam_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/cam_interface/msg/detail/cam_topic__type_support_c.cpp.o[0m
+[4.906s] [ 35%] [32m[1mLinking CXX shared library libcam_interface__rosidl_typesupport_c.so[0m
+[4.924s] running egg_info
+[4.925s] writing cam_interface.egg-info/PKG-INFO
+[4.926s] writing dependency_links to cam_interface.egg-info/dependency_links.txt
+[4.927s] [ 38%] [32m[1mLinking C shared library libcam_interface__rosidl_typesupport_introspection_c.so[0m
+[4.928s] writing top-level names to cam_interface.egg-info/top_level.txt
+[4.934s] reading manifest file 'cam_interface.egg-info/SOURCES.txt'
+[4.935s] writing manifest file 'cam_interface.egg-info/SOURCES.txt'
+[4.973s] [ 41%] [32m[1mLinking CXX shared library libcam_interface__rosidl_typesupport_cpp.so[0m
+[5.014s] [ 41%] Built target ament_cmake_python_build_cam_interface_egg
+[5.326s] [ 45%] [32m[1mLinking CXX shared library libcam_interface__rosidl_typesupport_introspection_cpp.so[0m
+[5.336s] [ 48%] [32m[1mLinking CXX shared library libcam_interface__rosidl_typesupport_fastrtps_cpp.so[0m
+[5.357s] [ 51%] Built target cam_interface__rosidl_typesupport_introspection_c
+[5.379s] [ 54%] Built target cam_interface__rosidl_typesupport_c
+[5.442s] [ 58%] Built target cam_interface__rosidl_typesupport_cpp
+[5.623s] [ 61%] Built target cam_interface__rosidl_typesupport_introspection_cpp
+[5.642s] [ 64%] Built target cam_interface__rosidl_typesupport_fastrtps_cpp
+[5.936s] [ 67%] [32m[1mLinking CXX shared library libcam_interface__rosidl_typesupport_fastrtps_c.so[0m
+[6.387s] [ 70%] Built target cam_interface__rosidl_typesupport_fastrtps_c
+[6.416s] [ 70%] Built target cam_interface
+[6.445s] [ 74%] Built target cam_interface__py
+[6.461s] [35m[1mConsolidate compiler generated dependencies of target cam_interface__rosidl_generator_py[0m
+[6.480s] [ 77%] [32mBuilding C object CMakeFiles/cam_interface__rosidl_generator_py.dir/rosidl_generator_py/cam_interface/msg/_cam_topic_s.c.o[0m
+[6.684s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/cam_interface/libcam_interface__rosidl_generator_py.so[0m
+[7.034s] [ 80%] Built target cam_interface__rosidl_generator_py
+[7.040s] [35m[1mConsolidate compiler generated dependencies of target cam_interface__rosidl_typesupport_c__pyext[0m
+[7.040s] [35m[1mConsolidate compiler generated dependencies of target cam_interface__rosidl_typesupport_fastrtps_c__pyext[0m
+[7.041s] [35m[1mConsolidate compiler generated dependencies of target cam_interface__rosidl_typesupport_introspection_c__pyext[0m
+[7.058s] [ 83%] [32mBuilding C object CMakeFiles/cam_interface__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/cam_interface/_cam_interface_s.ep.rosidl_typesupport_c.c.o[0m
+[7.059s] [ 87%] [32mBuilding C object CMakeFiles/cam_interface__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/cam_interface/_cam_interface_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[7.063s] [ 90%] [32mBuilding C object CMakeFiles/cam_interface__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/cam_interface/_cam_interface_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[7.236s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/cam_interface/cam_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[7.277s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/cam_interface/cam_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[7.278s] [100%] [32m[1mLinking C shared library rosidl_generator_py/cam_interface/cam_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[7.626s] [100%] Built target cam_interface__rosidl_typesupport_c__pyext
+[7.628s] [100%] Built target cam_interface__rosidl_typesupport_introspection_c__pyext
+[7.701s] [100%] Built target cam_interface__rosidl_typesupport_fastrtps_c__pyext
+[7.717s] Invoked command in '/home/akash/final_project_sme_lab_12194814/12194814_ros_ws/build/cam_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/akash/new_ros_ws/install/gesture_pub_sub:/home/akash/new_ros_ws/install/cam_pub_sub:/opt/ros/humble /usr/bin/cmake --build /home/akash/final_project_sme_lab_12194814/12194814_ros_ws/build/cam_interface -- -j12 -l12
+[7.813s] Invoking command in '/home/akash/final_project_sme_lab_12194814/12194814_ros_ws/build/cam_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/akash/new_ros_ws/install/gesture_pub_sub:/home/akash/new_ros_ws/install/cam_pub_sub:/opt/ros/humble /usr/bin/cmake --install /home/akash/final_project_sme_lab_12194814/12194814_ros_ws/build/cam_interface
+[7.827s] -- Install configuration: ""
+[7.827s] -- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/share/ament_index/resource_index/rosidl_interfaces/cam_interface
+[7.827s] -- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/include/cam_interface/cam_interface
+[7.828s] -- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/include/cam_interface/cam_interface/msg
+[7.828s] -- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/include/cam_interface/cam_interface/msg/rosidl_generator_c__visibility_control.h
+[7.828s] -- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/include/cam_interface/cam_interface/msg/cam_topic.h
+[7.828s] -- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/include/cam_interface/cam_interface/msg/detail
+[7.828s] -- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/include/cam_interface/cam_interface/msg/detail/cam_topic__functions.c
+[7.828s] -- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/include/cam_interface/cam_interface/msg/detail/cam_topic__struct.h
+[7.829s] -- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/include/cam_interface/cam_interface/msg/detail/cam_topic__type_support.h
+[7.829s] -- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/include/cam_interface/cam_interface/msg/detail/cam_topic__functions.h
+[7.829s] -- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/share/cam_interface/environment/library_path.sh
+[7.829s] -- Installing: /home/akash/new_ros_ws/install/cam_interface/share/cam_interface/environment/library_path.dsv
+[7.829s] -- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/lib/libcam_interface__rosidl_generator_c.so
+[7.830s] -- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/include/cam_interface/cam_interface
+[7.830s] -- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/include/cam_interface/cam_interface/msg
+[7.830s] -- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/include/cam_interface/cam_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[7.830s] -- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/include/cam_interface/cam_interface/msg/detail
+[7.830s] -- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/include/cam_interface/cam_interface/msg/detail/cam_topic__rosidl_typesupport_fastrtps_c.h
+[7.831s] -- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/lib/libcam_interface__rosidl_typesupport_fastrtps_c.so
+[7.831s] -- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/include/cam_interface/cam_interface
+[7.831s] -- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/include/cam_interface/cam_interface/msg
+[7.831s] -- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/include/cam_interface/cam_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[7.831s] -- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/include/cam_interface/cam_interface/msg/detail
+[7.831s] -- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/include/cam_interface/cam_interface/msg/detail/cam_topic__rosidl_typesupport_introspection_c.h
+[7.832s] -- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/include/cam_interface/cam_interface/msg/detail/cam_topic__type_support.c
+[7.832s] -- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/lib/libcam_interface__rosidl_typesupport_introspection_c.so
+[7.832s] -- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/lib/libcam_interface__rosidl_typesupport_c.so
+[7.833s] -- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/include/cam_interface/cam_interface
+[7.833s] -- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/include/cam_interface/cam_interface/msg
+[7.833s] -- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/include/cam_interface/cam_interface/msg/cam_topic.hpp
+[7.833s] -- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/include/cam_interface/cam_interface/msg/detail
+[7.833s] -- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/include/cam_interface/cam_interface/msg/detail/cam_topic__traits.hpp
+[7.834s] -- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/include/cam_interface/cam_interface/msg/detail/cam_topic__struct.hpp
+[7.834s] -- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/include/cam_interface/cam_interface/msg/detail/cam_topic__builder.hpp
+[7.834s] -- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/include/cam_interface/cam_interface
+[7.834s] -- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/include/cam_interface/cam_interface/msg
+[7.834s] -- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/include/cam_interface/cam_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[7.834s] -- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/include/cam_interface/cam_interface/msg/detail
+[7.834s] -- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/include/cam_interface/cam_interface/msg/detail/dds_fastrtps
+[7.834s] -- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/include/cam_interface/cam_interface/msg/detail/cam_topic__rosidl_typesupport_fastrtps_cpp.hpp
+[7.835s] -- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/lib/libcam_interface__rosidl_typesupport_fastrtps_cpp.so
+[7.835s] -- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/include/cam_interface/cam_interface
+[7.835s] -- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/include/cam_interface/cam_interface/msg
+[7.835s] -- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/include/cam_interface/cam_interface/msg/detail
+[7.835s] -- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/include/cam_interface/cam_interface/msg/detail/cam_topic__rosidl_typesupport_introspection_cpp.hpp
+[7.836s] -- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/include/cam_interface/cam_interface/msg/detail/cam_topic__type_support.cpp
+[7.836s] -- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/lib/libcam_interface__rosidl_typesupport_introspection_cpp.so
+[7.837s] -- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/lib/libcam_interface__rosidl_typesupport_cpp.so
+[7.837s] -- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/share/cam_interface/environment/pythonpath.sh
+[7.837s] -- Installing: /home/akash/new_ros_ws/install/cam_interface/share/cam_interface/environment/pythonpath.dsv
+[7.838s] -- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/local/lib/python3.10/dist-packages/cam_interface-0.0.0-py3.10.egg-info
+[7.838s] -- Installing: /home/akash/new_ros_ws/install/cam_interface/local/lib/python3.10/dist-packages/cam_interface-0.0.0-py3.10.egg-info/SOURCES.txt
+[7.839s] -- Installing: /home/akash/new_ros_ws/install/cam_interface/local/lib/python3.10/dist-packages/cam_interface-0.0.0-py3.10.egg-info/top_level.txt
+[7.839s] -- Installing: /home/akash/new_ros_ws/install/cam_interface/local/lib/python3.10/dist-packages/cam_interface-0.0.0-py3.10.egg-info/dependency_links.txt
+[7.839s] -- Installing: /home/akash/new_ros_ws/install/cam_interface/local/lib/python3.10/dist-packages/cam_interface-0.0.0-py3.10.egg-info/PKG-INFO
+[7.839s] -- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/local/lib/python3.10/dist-packages/cam_interface
+[7.840s] -- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/local/lib/python3.10/dist-packages/cam_interface/cam_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[7.840s] -- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/local/lib/python3.10/dist-packages/cam_interface/cam_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[7.840s] -- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/local/lib/python3.10/dist-packages/cam_interface/_cam_interface_s.ep.rosidl_typesupport_introspection_c.c
+[7.840s] -- Installing: /home/akash/new_ros_ws/install/cam_interface/local/lib/python3.10/dist-packages/cam_interface/__init__.py
+[7.841s] -- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/local/lib/python3.10/dist-packages/cam_interface/_cam_interface_s.ep.rosidl_typesupport_fastrtps_c.c
+[7.841s] -- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/local/lib/python3.10/dist-packages/cam_interface/cam_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[7.841s] -- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/local/lib/python3.10/dist-packages/cam_interface/_cam_interface_s.ep.rosidl_typesupport_c.c
+[7.841s] -- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/local/lib/python3.10/dist-packages/cam_interface/libcam_interface__rosidl_generator_py.so
+[7.841s] -- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/local/lib/python3.10/dist-packages/cam_interface/msg
+[7.842s] -- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/local/lib/python3.10/dist-packages/cam_interface/msg/_cam_topic.py
+[7.842s] -- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/local/lib/python3.10/dist-packages/cam_interface/msg/__init__.py
+[7.842s] -- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/local/lib/python3.10/dist-packages/cam_interface/msg/_cam_topic_s.c
+[7.895s] Listing '/home/akash/new_ros_ws/install/cam_interface/local/lib/python3.10/dist-packages/cam_interface'...
+[7.895s] Compiling '/home/akash/new_ros_ws/install/cam_interface/local/lib/python3.10/dist-packages/cam_interface/__init__.py'...
+[7.896s] Listing '/home/akash/new_ros_ws/install/cam_interface/local/lib/python3.10/dist-packages/cam_interface/msg'...
+[7.902s] -- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/local/lib/python3.10/dist-packages/cam_interface/cam_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[7.903s] -- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/local/lib/python3.10/dist-packages/cam_interface/cam_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[7.904s] -- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/local/lib/python3.10/dist-packages/cam_interface/cam_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[7.904s] -- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/lib/libcam_interface__rosidl_generator_py.so
+[7.905s] -- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/share/cam_interface/msg/CamTopic.idl
+[7.905s] -- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/share/cam_interface/msg/CamTopic.msg
+[7.905s] -- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/share/ament_index/resource_index/package_run_dependencies/cam_interface
+[7.905s] -- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/share/ament_index/resource_index/parent_prefix_path/cam_interface
+[7.906s] -- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/share/cam_interface/environment/ament_prefix_path.sh
+[7.906s] -- Installing: /home/akash/new_ros_ws/install/cam_interface/share/cam_interface/environment/ament_prefix_path.dsv
+[7.906s] -- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/share/cam_interface/environment/path.sh
+[7.907s] -- Installing: /home/akash/new_ros_ws/install/cam_interface/share/cam_interface/environment/path.dsv
+[7.907s] -- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/share/cam_interface/local_setup.bash
+[7.907s] -- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/share/cam_interface/local_setup.sh
+[7.907s] -- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/share/cam_interface/local_setup.zsh
+[7.908s] -- Installing: /home/akash/new_ros_ws/install/cam_interface/share/cam_interface/local_setup.dsv
+[7.908s] -- Installing: /home/akash/new_ros_ws/install/cam_interface/share/cam_interface/package.dsv
+[7.908s] -- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/share/ament_index/resource_index/packages/cam_interface
+[7.909s] -- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/share/cam_interface/cmake/export_cam_interface__rosidl_generator_cExport.cmake
+[7.909s] -- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/share/cam_interface/cmake/export_cam_interface__rosidl_generator_cExport-noconfig.cmake
+[7.910s] -- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/share/cam_interface/cmake/export_cam_interface__rosidl_typesupport_fastrtps_cExport.cmake
+[7.910s] -- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/share/cam_interface/cmake/export_cam_interface__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[7.910s] -- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/share/cam_interface/cmake/cam_interface__rosidl_typesupport_introspection_cExport.cmake
+[7.910s] -- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/share/cam_interface/cmake/cam_interface__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[7.911s] -- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/share/cam_interface/cmake/cam_interface__rosidl_typesupport_cExport.cmake
+[7.911s] -- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/share/cam_interface/cmake/cam_interface__rosidl_typesupport_cExport-noconfig.cmake
+[7.911s] -- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/share/cam_interface/cmake/export_cam_interface__rosidl_generator_cppExport.cmake
+[7.912s] -- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/share/cam_interface/cmake/export_cam_interface__rosidl_typesupport_fastrtps_cppExport.cmake
+[7.912s] -- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/share/cam_interface/cmake/export_cam_interface__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[7.912s] -- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/share/cam_interface/cmake/cam_interface__rosidl_typesupport_introspection_cppExport.cmake
+[7.912s] -- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/share/cam_interface/cmake/cam_interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[7.912s] -- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/share/cam_interface/cmake/cam_interface__rosidl_typesupport_cppExport.cmake
+[7.912s] -- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/share/cam_interface/cmake/cam_interface__rosidl_typesupport_cppExport-noconfig.cmake
+[7.912s] -- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/share/cam_interface/cmake/export_cam_interface__rosidl_generator_pyExport.cmake
+[7.912s] -- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/share/cam_interface/cmake/export_cam_interface__rosidl_generator_pyExport-noconfig.cmake
+[7.912s] -- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/share/cam_interface/cmake/rosidl_cmake-extras.cmake
+[7.913s] -- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/share/cam_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.913s] -- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/share/cam_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.913s] -- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/share/cam_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[7.914s] -- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/share/cam_interface/cmake/ament_cmake_export_targets-extras.cmake
+[7.914s] -- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/share/cam_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[7.915s] -- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/share/cam_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[7.917s] -- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/share/cam_interface/cmake/cam_interfaceConfig.cmake
+[7.917s] -- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/share/cam_interface/cmake/cam_interfaceConfig-version.cmake
+[7.918s] -- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/share/cam_interface/package.xml
+[7.918s] Invoked command in '/home/akash/final_project_sme_lab_12194814/12194814_ros_ws/build/cam_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/akash/new_ros_ws/install/gesture_pub_sub:/home/akash/new_ros_ws/install/cam_pub_sub:/opt/ros/humble /usr/bin/cmake --install /home/akash/final_project_sme_lab_12194814/12194814_ros_ws/build/cam_interface

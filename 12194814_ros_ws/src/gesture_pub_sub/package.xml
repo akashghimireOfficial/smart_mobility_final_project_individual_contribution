@@ -8,10 +8,11 @@
   <license>TODO: License declaration</license>
 
   <buildtool_depend>ament_python</buildtool_depend>
+  <!-- adding dependencies-->"
   <depend>rclpy</depend>
   <depend>gesture_interface</depend>
-  <depend>cam_interface</depend>
-  <depend>cam_pub_sub</depend>
+  <depend>cam_interface</depend>   <!-- added cam_interfaace package as dependency-->"
+  <depend>cam_pub_sub</depend>     <!-- added cam_pub_sub as dependency-->"
   <depend>sensor_msgs</depend>
   <depend>cv_bridge</depend> 
 

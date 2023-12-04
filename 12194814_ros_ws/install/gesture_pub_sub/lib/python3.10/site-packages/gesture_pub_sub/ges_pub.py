@@ -128,10 +128,9 @@ class ges_pub(Node):
         
 
 
-# @click.command() # use of click command
-# @click.option('--vdo_adr', default='video/test.mp4', help='Address of video file.')
 
 
+click.echo(click.style('Running Gesture Publisher', fg='green'))
 
 def main(args=None):
     try:

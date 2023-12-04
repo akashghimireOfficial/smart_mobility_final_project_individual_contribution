@@ -1,0 +1,602 @@
+[0.000000] (-) TimerEvent: {}
+[0.000785] (cam_interface) JobQueued: {'identifier': 'cam_interface', 'dependencies': OrderedDict()}
+[0.000881] (gesture_interface) JobQueued: {'identifier': 'gesture_interface', 'dependencies': OrderedDict()}
+[0.001503] (cam_pub_sub) JobQueued: {'identifier': 'cam_pub_sub', 'dependencies': OrderedDict([('cam_interface', '/home/akash/final_project_sme_lab_12194814/12194814_ros_ws/install/cam_interface')])}
+[0.001595] (gesture_pub_sub) JobQueued: {'identifier': 'gesture_pub_sub', 'dependencies': OrderedDict([('cam_interface', '/home/akash/final_project_sme_lab_12194814/12194814_ros_ws/install/cam_interface'), ('gesture_interface', '/home/akash/final_project_sme_lab_12194814/12194814_ros_ws/install/gesture_interface'), ('cam_pub_sub', '/home/akash/final_project_sme_lab_12194814/12194814_ros_ws/install/cam_pub_sub')])}
+[0.001693] (cam_interface) JobStarted: {'identifier': 'cam_interface'}
+[0.100209] (-) TimerEvent: {}
+[0.124542] (gesture_interface) JobStarted: {'identifier': 'gesture_interface'}
+[0.200640] (-) TimerEvent: {}
+[0.236720] (cam_interface) JobProgress: {'identifier': 'cam_interface', 'progress': 'cmake'}
+[0.238460] (cam_interface) JobProgress: {'identifier': 'cam_interface', 'progress': 'build'}
+[0.239998] (cam_interface) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/akash/final_project_sme_lab_12194814/12194814_ros_ws/build/cam_interface', '--', '-j12', '-l12'], 'cwd': '/home/akash/final_project_sme_lab_12194814/12194814_ros_ws/build/cam_interface', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'akash'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/akash/new_ros_ws/install/gesture_interface/lib:/home/akash/new_ros_ws/install/cam_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/akash'), ('OLDPWD', '/home/akash/final_project_sme_lab_12194814'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/akash/new_ros_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'akash'), ('NAME', 'DESKTOP-H8F0PIR'), ('WSL_INTEROP', '/run/WSL/440_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/akash/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.7/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.7/libnvvp:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/iCLS/:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/iCLS/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/IPT:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/IPT:/mnt/c/Program Files/Intel/WiFi/bin/:/mnt/c/Program Files/Common Files/Intel/WirelessCommon/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2022.2.0/:/mnt/c/Program Files/Git/cmd:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.7/lib/x64:/mnt/c/Users/akash/anaconda3:/mnt/c/Users/akash/anaconda3/Scripts:/mnt/c/Users/akash/anaconda3/condabin:/mnt/c/Users/akash/anaconda3/Library/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.7:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.7/include:/mnt/c/Users/akash/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/akash/AppData/Local/Microsoft/WindowsApps:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/akash/new_ros_ws/install/gesture_pub_sub:/home/akash/new_ros_ws/install/gesture_interface:/home/akash/new_ros_ws/install/cam_pub_sub:/home/akash/new_ros_ws/install/cam_interface:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/akash/final_project_sme_lab_12194814/12194814_ros_ws/build/cam_interface'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/akash/new_ros_ws/install/gesture_pub_sub/lib/python3.10/site-packages:/home/akash/new_ros_ws/install/gesture_interface/local/lib/python3.10/dist-packages:/home/akash/new_ros_ws/install/cam_pub_sub/lib/python3.10/site-packages:/home/akash/new_ros_ws/install/cam_interface/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/akash/new_ros_ws/install/gesture_interface:/home/akash/new_ros_ws/install/cam_interface:/home/akash/new_ros_ws/install/gesture_pub_sub:/home/akash/new_ros_ws/install/cam_pub_sub:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[0.249740] (gesture_interface) JobProgress: {'identifier': 'gesture_interface', 'progress': 'cmake'}
+[0.251401] (gesture_interface) JobProgress: {'identifier': 'gesture_interface', 'progress': 'build'}
+[0.252262] (gesture_interface) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/akash/final_project_sme_lab_12194814/12194814_ros_ws/build/gesture_interface', '--', '-j12', '-l12'], 'cwd': '/home/akash/final_project_sme_lab_12194814/12194814_ros_ws/build/gesture_interface', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'akash'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/akash/new_ros_ws/install/gesture_interface/lib:/home/akash/new_ros_ws/install/cam_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/akash'), ('OLDPWD', '/home/akash/final_project_sme_lab_12194814'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/akash/new_ros_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'akash'), ('NAME', 'DESKTOP-H8F0PIR'), ('WSL_INTEROP', '/run/WSL/440_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/akash/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.7/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.7/libnvvp:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/iCLS/:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/iCLS/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/IPT:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/IPT:/mnt/c/Program Files/Intel/WiFi/bin/:/mnt/c/Program Files/Common Files/Intel/WirelessCommon/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2022.2.0/:/mnt/c/Program Files/Git/cmd:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.7/lib/x64:/mnt/c/Users/akash/anaconda3:/mnt/c/Users/akash/anaconda3/Scripts:/mnt/c/Users/akash/anaconda3/condabin:/mnt/c/Users/akash/anaconda3/Library/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.7:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.7/include:/mnt/c/Users/akash/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/akash/AppData/Local/Microsoft/WindowsApps:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/akash/new_ros_ws/install/gesture_pub_sub:/home/akash/new_ros_ws/install/gesture_interface:/home/akash/new_ros_ws/install/cam_pub_sub:/home/akash/new_ros_ws/install/cam_interface:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/akash/final_project_sme_lab_12194814/12194814_ros_ws/build/gesture_interface'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/akash/new_ros_ws/install/gesture_pub_sub/lib/python3.10/site-packages:/home/akash/new_ros_ws/install/gesture_interface/local/lib/python3.10/dist-packages:/home/akash/new_ros_ws/install/cam_pub_sub/lib/python3.10/site-packages:/home/akash/new_ros_ws/install/cam_interface/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/akash/new_ros_ws/install/gesture_interface:/home/akash/new_ros_ws/install/cam_interface:/home/akash/new_ros_ws/install/gesture_pub_sub:/home/akash/new_ros_ws/install/cam_pub_sub:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[0.301081] (gesture_interface) StderrLine: {'line': b'\x1b[0mCMake Error: The current CMakeCache.txt directory /home/akash/final_project_sme_lab_12194814/12194814_ros_ws/build/gesture_interface/CMakeCache.txt is different than the directory /home/akash/new_ros_ws/build/gesture_interface where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt\x1b[0m\n'}
+[0.301429] (-) TimerEvent: {}
+[0.301708] (cam_interface) StderrLine: {'line': b'\x1b[0mCMake Error: The current CMakeCache.txt directory /home/akash/final_project_sme_lab_12194814/12194814_ros_ws/build/cam_interface/CMakeCache.txt is different than the directory /home/akash/new_ros_ws/build/cam_interface where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt\x1b[0m\n'}
+[0.373012] (gesture_interface) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.373431] (cam_interface) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.401644] (-) TimerEvent: {}
+[0.502092] (-) TimerEvent: {}
+[0.602574] (-) TimerEvent: {}
+[0.703029] (-) TimerEvent: {}
+[0.716736] (cam_interface) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.717286] (gesture_interface) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.727645] (cam_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.728256] (gesture_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.738589] (gesture_interface) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.739253] (cam_interface) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.803202] (-) TimerEvent: {}
+[0.903767] (-) TimerEvent: {}
+[1.004219] (-) TimerEvent: {}
+[1.104624] (-) TimerEvent: {}
+[1.148191] (cam_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.148632] (gesture_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.204795] (-) TimerEvent: {}
+[1.224220] (cam_interface) StdoutLine: {'line': b'-- Found std_msgs: 4.2.3 (/opt/ros/humble/share/std_msgs/cmake)\n'}
+[1.304956] (-) TimerEvent: {}
+[1.370676] (cam_interface) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[1.405202] (-) TimerEvent: {}
+[1.505627] (-) TimerEvent: {}
+[1.606069] (-) TimerEvent: {}
+[1.657811] (gesture_interface) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.706251] (-) TimerEvent: {}
+[1.806685] (-) TimerEvent: {}
+[1.907071] (-) TimerEvent: {}
+[1.996499] (gesture_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.007248] (-) TimerEvent: {}
+[2.107684] (-) TimerEvent: {}
+[2.208189] (-) TimerEvent: {}
+[2.210888] (cam_interface) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[2.308351] (-) TimerEvent: {}
+[2.408839] (-) TimerEvent: {}
+[2.410359] (gesture_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.454133] (gesture_interface) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[2.502636] (gesture_interface) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.502863] (gesture_interface) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[2.503126] (gesture_interface) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[2.509136] (-) TimerEvent: {}
+[2.556646] (gesture_interface) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.609276] (-) TimerEvent: {}
+[2.653713] (gesture_interface) StdoutLine: {'line': b'-- Generating done\n'}
+[2.662853] (gesture_interface) StdoutLine: {'line': b'-- Build files have been written to: /home/akash/new_ros_ws/build/gesture_interface\n'}
+[2.709478] (-) TimerEvent: {}
+[2.717316] (gesture_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target gesture_interface__rosidl_generator_c\x1b[0m\n'}
+[2.733779] (gesture_interface) StdoutLine: {'line': b'[  3%] Built target gesture_interface__cpp\n'}
+[2.743929] (gesture_interface) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object CMakeFiles/gesture_interface__rosidl_generator_c.dir/rosidl_generator_c/gesture_interface/msg/detail/gesture_topic__functions.c.o\x1b[0m\n'}
+[2.757759] (gesture_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target gesture_interface__rosidl_typesupport_cpp\x1b[0m\n'}
+[2.759998] (gesture_interface) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_copy_gesture_interface\n'}
+[2.762764] (gesture_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target gesture_interface__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[2.776252] (gesture_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target gesture_interface__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[2.785089] (gesture_interface) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding CXX object CMakeFiles/gesture_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/gesture_interface/msg/gesture_topic__type_support.cpp.o\x1b[0m\n'}
+[2.791152] (gesture_interface) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/gesture_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/gesture_interface/msg/detail/dds_fastrtps/gesture_topic__type_support.cpp.o\x1b[0m\n'}
+[2.796472] (cam_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.801863] (gesture_interface) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/gesture_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gesture_interface/msg/detail/gesture_topic__type_support.cpp.o\x1b[0m\n'}
+[2.809660] (-) TimerEvent: {}
+[2.910204] (-) TimerEvent: {}
+[3.010799] (-) TimerEvent: {}
+[3.059267] (gesture_interface) StdoutLine: {'line': b'[ 19%] \x1b[32m\x1b[1mLinking C shared library libgesture_interface__rosidl_generator_c.so\x1b[0m\n'}
+[3.111019] (-) TimerEvent: {}
+[3.211716] (-) TimerEvent: {}
+[3.312380] (-) TimerEvent: {}
+[3.360552] (gesture_interface) StdoutLine: {'line': b'running egg_info\n'}
+[3.362481] (gesture_interface) StdoutLine: {'line': b'writing gesture_interface.egg-info/PKG-INFO\n'}
+[3.363546] (gesture_interface) StdoutLine: {'line': b'writing dependency_links to gesture_interface.egg-info/dependency_links.txt\n'}
+[3.364903] (gesture_interface) StdoutLine: {'line': b'writing top-level names to gesture_interface.egg-info/top_level.txt\n'}
+[3.370043] (gesture_interface) StdoutLine: {'line': b"reading manifest file 'gesture_interface.egg-info/SOURCES.txt'\n"}
+[3.371451] (gesture_interface) StdoutLine: {'line': b"writing manifest file 'gesture_interface.egg-info/SOURCES.txt'\n"}
+[3.412576] (-) TimerEvent: {}
+[3.430779] (gesture_interface) StdoutLine: {'line': b'[ 19%] Built target ament_cmake_python_build_gesture_interface_egg\n'}
+[3.451631] (gesture_interface) StdoutLine: {'line': b'[ 22%] Built target gesture_interface__rosidl_generator_c\n'}
+[3.471916] (gesture_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target gesture_interface__rosidl_typesupport_c\x1b[0m\n'}
+[3.472689] (gesture_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target gesture_interface__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[3.473615] (gesture_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target gesture_interface__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[3.494526] (gesture_interface) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/gesture_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/gesture_interface/msg/gesture_topic__type_support.cpp.o\x1b[0m\n'}
+[3.495378] (gesture_interface) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding C object CMakeFiles/gesture_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/gesture_interface/msg/detail/gesture_topic__type_support.c.o\x1b[0m\n'}
+[3.499907] (gesture_interface) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/gesture_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gesture_interface/msg/detail/gesture_topic__type_support_c.cpp.o\x1b[0m\n'}
+[3.512753] (-) TimerEvent: {}
+[3.566994] (gesture_interface) StdoutLine: {'line': b'[ 35%] \x1b[32m\x1b[1mLinking C shared library libgesture_interface__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[3.576327] (gesture_interface) StdoutLine: {'line': b'[ 38%] \x1b[32m\x1b[1mLinking CXX shared library libgesture_interface__rosidl_typesupport_c.so\x1b[0m\n'}
+[3.611599] (gesture_interface) StdoutLine: {'line': b'[ 41%] \x1b[32m\x1b[1mLinking CXX shared library libgesture_interface__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[3.612887] (-) TimerEvent: {}
+[3.713419] (-) TimerEvent: {}
+[3.812397] (cam_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.813606] (-) TimerEvent: {}
+[3.876151] (cam_interface) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[3.907953] (gesture_interface) StdoutLine: {'line': b'[ 45%] \x1b[32m\x1b[1mLinking CXX shared library libgesture_interface__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[3.913797] (-) TimerEvent: {}
+[3.919504] (gesture_interface) StdoutLine: {'line': b'[ 48%] Built target gesture_interface__rosidl_typesupport_introspection_c\n'}
+[3.933108] (gesture_interface) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libgesture_interface__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[3.936896] (cam_interface) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.938123] (cam_interface) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[3.938590] (cam_interface) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[3.939328] (gesture_interface) StdoutLine: {'line': b'[ 54%] Built target gesture_interface__rosidl_typesupport_c\n'}
+[4.014006] (-) TimerEvent: {}
+[4.085932] (cam_interface) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.099449] (gesture_interface) StdoutLine: {'line': b'[ 58%] Built target gesture_interface__rosidl_typesupport_cpp\n'}
+[4.114167] (-) TimerEvent: {}
+[4.179630] (cam_interface) StdoutLine: {'line': b'-- Generating done\n'}
+[4.187185] (cam_interface) StdoutLine: {'line': b'-- Build files have been written to: /home/akash/new_ros_ws/build/cam_interface\n'}
+[4.214345] (-) TimerEvent: {}
+[4.236330] (cam_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cam_interface__rosidl_generator_c\x1b[0m\n'}
+[4.250674] (cam_interface) StdoutLine: {'line': b'[  3%] Built target cam_interface__cpp\n'}
+[4.259218] (cam_interface) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object CMakeFiles/cam_interface__rosidl_generator_c.dir/rosidl_generator_c/cam_interface/msg/detail/cam_topic__functions.c.o\x1b[0m\n'}
+[4.275857] (cam_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cam_interface__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[4.276709] (cam_interface) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_copy_cam_interface\n'}
+[4.277078] (cam_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cam_interface__rosidl_typesupport_cpp\x1b[0m\n'}
+[4.277848] (cam_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cam_interface__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[4.302033] (cam_interface) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/cam_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/cam_interface/msg/detail/dds_fastrtps/cam_topic__type_support.cpp.o\x1b[0m\n'}
+[4.302341] (cam_interface) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/cam_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/cam_interface/msg/cam_topic__type_support.cpp.o\x1b[0m\n'}
+[4.304127] (cam_interface) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/cam_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/cam_interface/msg/detail/cam_topic__type_support.cpp.o\x1b[0m\n'}
+[4.314594] (-) TimerEvent: {}
+[4.390981] (cam_interface) StdoutLine: {'line': b'[ 19%] \x1b[32m\x1b[1mLinking C shared library libcam_interface__rosidl_generator_c.so\x1b[0m\n'}
+[4.407190] (gesture_interface) StdoutLine: {'line': b'[ 61%] Built target gesture_interface__rosidl_typesupport_introspection_cpp\n'}
+[4.414825] (-) TimerEvent: {}
+[4.446928] (gesture_interface) StdoutLine: {'line': b'[ 64%] Built target gesture_interface__rosidl_typesupport_fastrtps_cpp\n'}
+[4.514978] (-) TimerEvent: {}
+[4.516493] (gesture_interface) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking CXX shared library libgesture_interface__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[4.615182] (-) TimerEvent: {}
+[4.715944] (-) TimerEvent: {}
+[4.790470] (cam_interface) StdoutLine: {'line': b'[ 22%] Built target cam_interface__rosidl_generator_c\n'}
+[4.812141] (cam_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cam_interface__rosidl_typesupport_c\x1b[0m\n'}
+[4.812804] (cam_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cam_interface__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[4.816121] (-) TimerEvent: {}
+[4.817955] (cam_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cam_interface__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[4.836775] (cam_interface) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/cam_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/cam_interface/msg/cam_topic__type_support.cpp.o\x1b[0m\n'}
+[4.837741] (cam_interface) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding C object CMakeFiles/cam_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/cam_interface/msg/detail/cam_topic__type_support.c.o\x1b[0m\n'}
+[4.848261] (cam_interface) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/cam_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/cam_interface/msg/detail/cam_topic__type_support_c.cpp.o\x1b[0m\n'}
+[4.907542] (cam_interface) StdoutLine: {'line': b'[ 35%] \x1b[32m\x1b[1mLinking CXX shared library libcam_interface__rosidl_typesupport_c.so\x1b[0m\n'}
+[4.916345] (-) TimerEvent: {}
+[4.925004] (cam_interface) StdoutLine: {'line': b'running egg_info\n'}
+[4.926946] (cam_interface) StdoutLine: {'line': b'writing cam_interface.egg-info/PKG-INFO\n'}
+[4.927643] (cam_interface) StdoutLine: {'line': b'writing dependency_links to cam_interface.egg-info/dependency_links.txt\n'}
+[4.928327] (cam_interface) StdoutLine: {'line': b'[ 38%] \x1b[32m\x1b[1mLinking C shared library libcam_interface__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[4.929418] (cam_interface) StdoutLine: {'line': b'writing top-level names to cam_interface.egg-info/top_level.txt\n'}
+[4.935390] (cam_interface) StdoutLine: {'line': b"reading manifest file 'cam_interface.egg-info/SOURCES.txt'\n"}
+[4.936868] (cam_interface) StdoutLine: {'line': b"writing manifest file 'cam_interface.egg-info/SOURCES.txt'\n"}
+[4.974784] (cam_interface) StdoutLine: {'line': b'[ 41%] \x1b[32m\x1b[1mLinking CXX shared library libcam_interface__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[5.015698] (cam_interface) StdoutLine: {'line': b'[ 41%] Built target ament_cmake_python_build_cam_interface_egg\n'}
+[5.016504] (-) TimerEvent: {}
+[5.045226] (gesture_interface) StdoutLine: {'line': b'[ 70%] Built target gesture_interface__rosidl_typesupport_fastrtps_c\n'}
+[5.084889] (gesture_interface) StdoutLine: {'line': b'[ 70%] Built target gesture_interface\n'}
+[5.116675] (-) TimerEvent: {}
+[5.124363] (gesture_interface) StdoutLine: {'line': b'[ 74%] Built target gesture_interface__py\n'}
+[5.148164] (gesture_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target gesture_interface__rosidl_generator_py\x1b[0m\n'}
+[5.174401] (gesture_interface) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/gesture_interface__rosidl_generator_py.dir/rosidl_generator_py/gesture_interface/msg/_gesture_topic_s.c.o\x1b[0m\n'}
+[5.216871] (-) TimerEvent: {}
+[5.317446] (-) TimerEvent: {}
+[5.327616] (cam_interface) StdoutLine: {'line': b'[ 45%] \x1b[32m\x1b[1mLinking CXX shared library libcam_interface__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[5.337688] (cam_interface) StdoutLine: {'line': b'[ 48%] \x1b[32m\x1b[1mLinking CXX shared library libcam_interface__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[5.358258] (cam_interface) StdoutLine: {'line': b'[ 51%] Built target cam_interface__rosidl_typesupport_introspection_c\n'}
+[5.380609] (cam_interface) StdoutLine: {'line': b'[ 54%] Built target cam_interface__rosidl_typesupport_c\n'}
+[5.417627] (-) TimerEvent: {}
+[5.443779] (cam_interface) StdoutLine: {'line': b'[ 58%] Built target cam_interface__rosidl_typesupport_cpp\n'}
+[5.489957] (gesture_interface) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/gesture_interface/libgesture_interface__rosidl_generator_py.so\x1b[0m\n'}
+[5.517811] (-) TimerEvent: {}
+[5.618226] (-) TimerEvent: {}
+[5.624138] (cam_interface) StdoutLine: {'line': b'[ 61%] Built target cam_interface__rosidl_typesupport_introspection_cpp\n'}
+[5.643499] (cam_interface) StdoutLine: {'line': b'[ 64%] Built target cam_interface__rosidl_typesupport_fastrtps_cpp\n'}
+[5.718426] (-) TimerEvent: {}
+[5.817450] (gesture_interface) StdoutLine: {'line': b'[ 80%] Built target gesture_interface__rosidl_generator_py\n'}
+[5.818570] (-) TimerEvent: {}
+[5.834998] (gesture_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target gesture_interface__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[5.835221] (gesture_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target gesture_interface__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[5.837415] (gesture_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target gesture_interface__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[5.856380] (gesture_interface) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/gesture_interface__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/gesture_interface/_gesture_interface_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[5.857721] (gesture_interface) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/gesture_interface__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/gesture_interface/_gesture_interface_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[5.858932] (gesture_interface) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/gesture_interface__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/gesture_interface/_gesture_interface_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[5.918783] (-) TimerEvent: {}
+[5.937486] (cam_interface) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking CXX shared library libcam_interface__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[6.018992] (-) TimerEvent: {}
+[6.029788] (gesture_interface) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/gesture_interface/gesture_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[6.031613] (gesture_interface) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/gesture_interface/gesture_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[6.039102] (gesture_interface) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/gesture_interface/gesture_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[6.119188] (-) TimerEvent: {}
+[6.219865] (-) TimerEvent: {}
+[6.304278] (gesture_interface) StdoutLine: {'line': b'[100%] Built target gesture_interface__rosidl_typesupport_fastrtps_c__pyext\n'}
+[6.307709] (gesture_interface) StdoutLine: {'line': b'[100%] Built target gesture_interface__rosidl_typesupport_introspection_c__pyext\n'}
+[6.320046] (-) TimerEvent: {}
+[6.388689] (cam_interface) StdoutLine: {'line': b'[ 70%] Built target cam_interface__rosidl_typesupport_fastrtps_c\n'}
+[6.417256] (cam_interface) StdoutLine: {'line': b'[ 70%] Built target cam_interface\n'}
+[6.417550] (gesture_interface) StdoutLine: {'line': b'[100%] Built target gesture_interface__rosidl_typesupport_c__pyext\n'}
+[6.420188] (-) TimerEvent: {}
+[6.432981] (gesture_interface) CommandEnded: {'returncode': 0}
+[6.446742] (cam_interface) StdoutLine: {'line': b'[ 74%] Built target cam_interface__py\n'}
+[6.462755] (cam_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cam_interface__rosidl_generator_py\x1b[0m\n'}
+[6.481660] (cam_interface) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/cam_interface__rosidl_generator_py.dir/rosidl_generator_py/cam_interface/msg/_cam_topic_s.c.o\x1b[0m\n'}
+[6.520455] (-) TimerEvent: {}
+[6.531749] (gesture_interface) JobProgress: {'identifier': 'gesture_interface', 'progress': 'install'}
+[6.545188] (gesture_interface) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/akash/final_project_sme_lab_12194814/12194814_ros_ws/build/gesture_interface'], 'cwd': '/home/akash/final_project_sme_lab_12194814/12194814_ros_ws/build/gesture_interface', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'akash'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/akash/new_ros_ws/install/gesture_interface/lib:/home/akash/new_ros_ws/install/cam_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/akash'), ('OLDPWD', '/home/akash/final_project_sme_lab_12194814'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/akash/new_ros_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'akash'), ('NAME', 'DESKTOP-H8F0PIR'), ('WSL_INTEROP', '/run/WSL/440_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/akash/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.7/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.7/libnvvp:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/iCLS/:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/iCLS/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/IPT:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/IPT:/mnt/c/Program Files/Intel/WiFi/bin/:/mnt/c/Program Files/Common Files/Intel/WirelessCommon/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2022.2.0/:/mnt/c/Program Files/Git/cmd:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.7/lib/x64:/mnt/c/Users/akash/anaconda3:/mnt/c/Users/akash/anaconda3/Scripts:/mnt/c/Users/akash/anaconda3/condabin:/mnt/c/Users/akash/anaconda3/Library/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.7:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.7/include:/mnt/c/Users/akash/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/akash/AppData/Local/Microsoft/WindowsApps:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/akash/new_ros_ws/install/gesture_pub_sub:/home/akash/new_ros_ws/install/gesture_interface:/home/akash/new_ros_ws/install/cam_pub_sub:/home/akash/new_ros_ws/install/cam_interface:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/akash/final_project_sme_lab_12194814/12194814_ros_ws/build/gesture_interface'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/akash/new_ros_ws/install/gesture_pub_sub/lib/python3.10/site-packages:/home/akash/new_ros_ws/install/gesture_interface/local/lib/python3.10/dist-packages:/home/akash/new_ros_ws/install/cam_pub_sub/lib/python3.10/site-packages:/home/akash/new_ros_ws/install/cam_interface/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/akash/new_ros_ws/install/gesture_interface:/home/akash/new_ros_ws/install/cam_interface:/home/akash/new_ros_ws/install/gesture_pub_sub:/home/akash/new_ros_ws/install/cam_pub_sub:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[6.559405] (gesture_interface) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.559913] (gesture_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/share/ament_index/resource_index/rosidl_interfaces/gesture_interface\n'}
+[6.561149] (gesture_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/include/gesture_interface/gesture_interface\n'}
+[6.561423] (gesture_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/include/gesture_interface/gesture_interface/msg\n'}
+[6.561600] (gesture_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/include/gesture_interface/gesture_interface/msg/rosidl_generator_c__visibility_control.h\n'}
+[6.561778] (gesture_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/include/gesture_interface/gesture_interface/msg/gesture_topic.h\n'}
+[6.561911] (gesture_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/include/gesture_interface/gesture_interface/msg/detail\n'}
+[6.562026] (gesture_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/include/gesture_interface/gesture_interface/msg/detail/gesture_topic__functions.c\n'}
+[6.562129] (gesture_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/include/gesture_interface/gesture_interface/msg/detail/gesture_topic__type_support.h\n'}
+[6.562237] (gesture_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/include/gesture_interface/gesture_interface/msg/detail/gesture_topic__struct.h\n'}
+[6.562616] (gesture_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/include/gesture_interface/gesture_interface/msg/detail/gesture_topic__functions.h\n'}
+[6.562778] (gesture_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/share/gesture_interface/environment/library_path.sh\n'}
+[6.562891] (gesture_interface) StdoutLine: {'line': b'-- Installing: /home/akash/new_ros_ws/install/gesture_interface/share/gesture_interface/environment/library_path.dsv\n'}
+[6.562995] (gesture_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/lib/libgesture_interface__rosidl_generator_c.so\n'}
+[6.566646] (gesture_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/include/gesture_interface/gesture_interface\n'}
+[6.567071] (gesture_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/include/gesture_interface/gesture_interface/msg\n'}
+[6.567420] (gesture_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/include/gesture_interface/gesture_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[6.567768] (gesture_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/include/gesture_interface/gesture_interface/msg/detail\n'}
+[6.568268] (gesture_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/include/gesture_interface/gesture_interface/msg/detail/gesture_topic__rosidl_typesupport_fastrtps_c.h\n'}
+[6.568652] (gesture_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/lib/libgesture_interface__rosidl_typesupport_fastrtps_c.so\n'}
+[6.569025] (gesture_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/include/gesture_interface/gesture_interface\n'}
+[6.569400] (gesture_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/include/gesture_interface/gesture_interface/msg\n'}
+[6.569663] (gesture_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/include/gesture_interface/gesture_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[6.570022] (gesture_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/include/gesture_interface/gesture_interface/msg/detail\n'}
+[6.570323] (gesture_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/include/gesture_interface/gesture_interface/msg/detail/gesture_topic__type_support.c\n'}
+[6.570694] (gesture_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/include/gesture_interface/gesture_interface/msg/detail/gesture_topic__rosidl_typesupport_introspection_c.h\n'}
+[6.571296] (gesture_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/lib/libgesture_interface__rosidl_typesupport_introspection_c.so\n'}
+[6.571756] (gesture_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/lib/libgesture_interface__rosidl_typesupport_c.so\n'}
+[6.571913] (gesture_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/include/gesture_interface/gesture_interface\n'}
+[6.572286] (gesture_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/include/gesture_interface/gesture_interface/msg\n'}
+[6.572596] (gesture_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/include/gesture_interface/gesture_interface/msg/gesture_topic.hpp\n'}
+[6.572908] (gesture_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/include/gesture_interface/gesture_interface/msg/detail\n'}
+[6.573419] (gesture_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/include/gesture_interface/gesture_interface/msg/detail/gesture_topic__struct.hpp\n'}
+[6.574573] (gesture_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/include/gesture_interface/gesture_interface/msg/detail/gesture_topic__traits.hpp\n'}
+[6.575054] (gesture_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/include/gesture_interface/gesture_interface/msg/detail/gesture_topic__builder.hpp\n'}
+[6.575482] (gesture_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/include/gesture_interface/gesture_interface\n'}
+[6.575985] (gesture_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/include/gesture_interface/gesture_interface/msg\n'}
+[6.576468] (gesture_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/include/gesture_interface/gesture_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[6.577091] (gesture_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/include/gesture_interface/gesture_interface/msg/detail\n'}
+[6.577580] (gesture_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/include/gesture_interface/gesture_interface/msg/detail/dds_fastrtps\n'}
+[6.577944] (gesture_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/include/gesture_interface/gesture_interface/msg/detail/gesture_topic__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[6.578324] (gesture_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/lib/libgesture_interface__rosidl_typesupport_fastrtps_cpp.so\n'}
+[6.578796] (gesture_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/include/gesture_interface/gesture_interface\n'}
+[6.579045] (gesture_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/include/gesture_interface/gesture_interface/msg\n'}
+[6.579240] (gesture_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/include/gesture_interface/gesture_interface/msg/detail\n'}
+[6.579426] (gesture_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/include/gesture_interface/gesture_interface/msg/detail/gesture_topic__rosidl_typesupport_introspection_cpp.hpp\n'}
+[6.579614] (gesture_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/include/gesture_interface/gesture_interface/msg/detail/gesture_topic__type_support.cpp\n'}
+[6.579795] (gesture_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/lib/libgesture_interface__rosidl_typesupport_introspection_cpp.so\n'}
+[6.579975] (gesture_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/lib/libgesture_interface__rosidl_typesupport_cpp.so\n'}
+[6.580154] (gesture_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/share/gesture_interface/environment/pythonpath.sh\n'}
+[6.580332] (gesture_interface) StdoutLine: {'line': b'-- Installing: /home/akash/new_ros_ws/install/gesture_interface/share/gesture_interface/environment/pythonpath.dsv\n'}
+[6.580561] (gesture_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/local/lib/python3.10/dist-packages/gesture_interface-0.0.0-py3.10.egg-info\n'}
+[6.580766] (gesture_interface) StdoutLine: {'line': b'-- Installing: /home/akash/new_ros_ws/install/gesture_interface/local/lib/python3.10/dist-packages/gesture_interface-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[6.580951] (gesture_interface) StdoutLine: {'line': b'-- Installing: /home/akash/new_ros_ws/install/gesture_interface/local/lib/python3.10/dist-packages/gesture_interface-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[6.581126] (gesture_interface) StdoutLine: {'line': b'-- Installing: /home/akash/new_ros_ws/install/gesture_interface/local/lib/python3.10/dist-packages/gesture_interface-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[6.581304] (gesture_interface) StdoutLine: {'line': b'-- Installing: /home/akash/new_ros_ws/install/gesture_interface/local/lib/python3.10/dist-packages/gesture_interface-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[6.581481] (gesture_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/local/lib/python3.10/dist-packages/gesture_interface\n'}
+[6.581657] (gesture_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/local/lib/python3.10/dist-packages/gesture_interface/gesture_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.581835] (gesture_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/local/lib/python3.10/dist-packages/gesture_interface/gesture_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.582024] (gesture_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/local/lib/python3.10/dist-packages/gesture_interface/_gesture_interface_s.ep.rosidl_typesupport_c.c\n'}
+[6.582204] (gesture_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/local/lib/python3.10/dist-packages/gesture_interface/_gesture_interface_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[6.582377] (gesture_interface) StdoutLine: {'line': b'-- Installing: /home/akash/new_ros_ws/install/gesture_interface/local/lib/python3.10/dist-packages/gesture_interface/__init__.py\n'}
+[6.582554] (gesture_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/local/lib/python3.10/dist-packages/gesture_interface/_gesture_interface_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[6.582730] (gesture_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/local/lib/python3.10/dist-packages/gesture_interface/libgesture_interface__rosidl_generator_py.so\n'}
+[6.582977] (gesture_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/local/lib/python3.10/dist-packages/gesture_interface/gesture_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.583161] (gesture_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/local/lib/python3.10/dist-packages/gesture_interface/msg\n'}
+[6.583352] (gesture_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/local/lib/python3.10/dist-packages/gesture_interface/msg/__init__.py\n'}
+[6.583530] (gesture_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/local/lib/python3.10/dist-packages/gesture_interface/msg/_gesture_topic.py\n'}
+[6.583707] (gesture_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/local/lib/python3.10/dist-packages/gesture_interface/msg/_gesture_topic_s.c\n'}
+[6.620620] (-) TimerEvent: {}
+[6.642777] (gesture_interface) StdoutLine: {'line': b"Listing '/home/akash/new_ros_ws/install/gesture_interface/local/lib/python3.10/dist-packages/gesture_interface'...\n"}
+[6.643056] (gesture_interface) StdoutLine: {'line': b"Compiling '/home/akash/new_ros_ws/install/gesture_interface/local/lib/python3.10/dist-packages/gesture_interface/__init__.py'...\n"}
+[6.643199] (gesture_interface) StdoutLine: {'line': b"Listing '/home/akash/new_ros_ws/install/gesture_interface/local/lib/python3.10/dist-packages/gesture_interface/msg'...\n"}
+[6.650585] (gesture_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/local/lib/python3.10/dist-packages/gesture_interface/gesture_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.651129] (gesture_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/local/lib/python3.10/dist-packages/gesture_interface/gesture_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.651728] (gesture_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/local/lib/python3.10/dist-packages/gesture_interface/gesture_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.652264] (gesture_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/lib/libgesture_interface__rosidl_generator_py.so\n'}
+[6.652734] (gesture_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/share/gesture_interface/msg/GestureTopic.idl\n'}
+[6.653459] (gesture_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/share/gesture_interface/msg/GestureTopic.msg\n'}
+[6.653842] (gesture_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/share/ament_index/resource_index/package_run_dependencies/gesture_interface\n'}
+[6.654336] (gesture_interface) StdoutLine: {'line': b'-- Installing: /home/akash/new_ros_ws/install/gesture_interface/share/ament_index/resource_index/parent_prefix_path/gesture_interface\n'}
+[6.654761] (gesture_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/share/gesture_interface/environment/ament_prefix_path.sh\n'}
+[6.655403] (gesture_interface) StdoutLine: {'line': b'-- Installing: /home/akash/new_ros_ws/install/gesture_interface/share/gesture_interface/environment/ament_prefix_path.dsv\n'}
+[6.655877] (gesture_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/share/gesture_interface/environment/path.sh\n'}
+[6.656317] (gesture_interface) StdoutLine: {'line': b'-- Installing: /home/akash/new_ros_ws/install/gesture_interface/share/gesture_interface/environment/path.dsv\n'}
+[6.656742] (gesture_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/share/gesture_interface/local_setup.bash\n'}
+[6.657164] (gesture_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/share/gesture_interface/local_setup.sh\n'}
+[6.657597] (gesture_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/share/gesture_interface/local_setup.zsh\n'}
+[6.658229] (gesture_interface) StdoutLine: {'line': b'-- Installing: /home/akash/new_ros_ws/install/gesture_interface/share/gesture_interface/local_setup.dsv\n'}
+[6.658961] (gesture_interface) StdoutLine: {'line': b'-- Installing: /home/akash/new_ros_ws/install/gesture_interface/share/gesture_interface/package.dsv\n'}
+[6.659525] (gesture_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/share/ament_index/resource_index/packages/gesture_interface\n'}
+[6.659858] (gesture_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/share/gesture_interface/cmake/export_gesture_interface__rosidl_generator_cExport.cmake\n'}
+[6.660300] (gesture_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/share/gesture_interface/cmake/export_gesture_interface__rosidl_generator_cExport-noconfig.cmake\n'}
+[6.660687] (gesture_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/share/gesture_interface/cmake/export_gesture_interface__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[6.661095] (gesture_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/share/gesture_interface/cmake/export_gesture_interface__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[6.661557] (gesture_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/share/gesture_interface/cmake/gesture_interface__rosidl_typesupport_introspection_cExport.cmake\n'}
+[6.661698] (gesture_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/share/gesture_interface/cmake/gesture_interface__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[6.661830] (gesture_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/share/gesture_interface/cmake/gesture_interface__rosidl_typesupport_cExport.cmake\n'}
+[6.661943] (gesture_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/share/gesture_interface/cmake/gesture_interface__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[6.662050] (gesture_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/share/gesture_interface/cmake/export_gesture_interface__rosidl_generator_cppExport.cmake\n'}
+[6.662161] (gesture_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/share/gesture_interface/cmake/export_gesture_interface__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[6.662272] (gesture_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/share/gesture_interface/cmake/export_gesture_interface__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[6.662376] (gesture_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/share/gesture_interface/cmake/gesture_interface__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[6.662647] (gesture_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/share/gesture_interface/cmake/gesture_interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[6.662913] (gesture_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/share/gesture_interface/cmake/gesture_interface__rosidl_typesupport_cppExport.cmake\n'}
+[6.663244] (gesture_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/share/gesture_interface/cmake/gesture_interface__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[6.663603] (gesture_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/share/gesture_interface/cmake/export_gesture_interface__rosidl_generator_pyExport.cmake\n'}
+[6.663999] (gesture_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/share/gesture_interface/cmake/export_gesture_interface__rosidl_generator_pyExport-noconfig.cmake\n'}
+[6.664436] (gesture_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/share/gesture_interface/cmake/rosidl_cmake-extras.cmake\n'}
+[6.664793] (gesture_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/share/gesture_interface/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[6.665074] (gesture_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/share/gesture_interface/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[6.665380] (gesture_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/share/gesture_interface/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[6.666027] (gesture_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/share/gesture_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[6.666374] (gesture_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/share/gesture_interface/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[6.666676] (gesture_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/share/gesture_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[6.667379] (gesture_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/share/gesture_interface/cmake/gesture_interfaceConfig.cmake\n'}
+[6.667735] (gesture_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/share/gesture_interface/cmake/gesture_interfaceConfig-version.cmake\n'}
+[6.668314] (gesture_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/gesture_interface/share/gesture_interface/package.xml\n'}
+[6.670880] (gesture_interface) CommandEnded: {'returncode': 0}
+[6.685326] (cam_interface) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/cam_interface/libcam_interface__rosidl_generator_py.so\x1b[0m\n'}
+[6.721806] (-) TimerEvent: {}
+[6.823379] (-) TimerEvent: {}
+[6.923835] (-) TimerEvent: {}
+[7.031470] (-) TimerEvent: {}
+[7.035171] (cam_interface) StdoutLine: {'line': b'[ 80%] Built target cam_interface__rosidl_generator_py\n'}
+[7.040446] (cam_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cam_interface__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[7.041587] (cam_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cam_interface__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[7.042467] (cam_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cam_interface__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[7.059252] (cam_interface) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/cam_interface__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/cam_interface/_cam_interface_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[7.060567] (cam_interface) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/cam_interface__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/cam_interface/_cam_interface_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[7.063582] (cam_interface) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/cam_interface__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/cam_interface/_cam_interface_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[7.094318] (gesture_interface) JobEnded: {'identifier': 'gesture_interface', 'rc': 0}
+[7.131658] (-) TimerEvent: {}
+[7.232097] (-) TimerEvent: {}
+[7.237757] (cam_interface) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/cam_interface/cam_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[7.278433] (cam_interface) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/cam_interface/cam_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[7.279869] (cam_interface) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/cam_interface/cam_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[7.332490] (-) TimerEvent: {}
+[7.433129] (-) TimerEvent: {}
+[7.533668] (-) TimerEvent: {}
+[7.627320] (cam_interface) StdoutLine: {'line': b'[100%] Built target cam_interface__rosidl_typesupport_c__pyext\n'}
+[7.629491] (cam_interface) StdoutLine: {'line': b'[100%] Built target cam_interface__rosidl_typesupport_introspection_c__pyext\n'}
+[7.633815] (-) TimerEvent: {}
+[7.702740] (cam_interface) StdoutLine: {'line': b'[100%] Built target cam_interface__rosidl_typesupport_fastrtps_c__pyext\n'}
+[7.717934] (cam_interface) CommandEnded: {'returncode': 0}
+[7.733971] (-) TimerEvent: {}
+[7.813036] (cam_interface) JobProgress: {'identifier': 'cam_interface', 'progress': 'install'}
+[7.814435] (cam_interface) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/akash/final_project_sme_lab_12194814/12194814_ros_ws/build/cam_interface'], 'cwd': '/home/akash/final_project_sme_lab_12194814/12194814_ros_ws/build/cam_interface', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'akash'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/akash/new_ros_ws/install/gesture_interface/lib:/home/akash/new_ros_ws/install/cam_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/akash'), ('OLDPWD', '/home/akash/final_project_sme_lab_12194814'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/akash/new_ros_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'akash'), ('NAME', 'DESKTOP-H8F0PIR'), ('WSL_INTEROP', '/run/WSL/440_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/akash/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.7/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.7/libnvvp:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/iCLS/:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/iCLS/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/IPT:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/IPT:/mnt/c/Program Files/Intel/WiFi/bin/:/mnt/c/Program Files/Common Files/Intel/WirelessCommon/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2022.2.0/:/mnt/c/Program Files/Git/cmd:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.7/lib/x64:/mnt/c/Users/akash/anaconda3:/mnt/c/Users/akash/anaconda3/Scripts:/mnt/c/Users/akash/anaconda3/condabin:/mnt/c/Users/akash/anaconda3/Library/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.7:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.7/include:/mnt/c/Users/akash/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/akash/AppData/Local/Microsoft/WindowsApps:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/akash/new_ros_ws/install/gesture_pub_sub:/home/akash/new_ros_ws/install/gesture_interface:/home/akash/new_ros_ws/install/cam_pub_sub:/home/akash/new_ros_ws/install/cam_interface:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/akash/final_project_sme_lab_12194814/12194814_ros_ws/build/cam_interface'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/akash/new_ros_ws/install/gesture_pub_sub/lib/python3.10/site-packages:/home/akash/new_ros_ws/install/gesture_interface/local/lib/python3.10/dist-packages:/home/akash/new_ros_ws/install/cam_pub_sub/lib/python3.10/site-packages:/home/akash/new_ros_ws/install/cam_interface/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/akash/new_ros_ws/install/gesture_interface:/home/akash/new_ros_ws/install/cam_interface:/home/akash/new_ros_ws/install/gesture_pub_sub:/home/akash/new_ros_ws/install/cam_pub_sub:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[7.827919] (cam_interface) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.828391] (cam_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/share/ament_index/resource_index/rosidl_interfaces/cam_interface\n'}
+[7.828923] (cam_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/include/cam_interface/cam_interface\n'}
+[7.829241] (cam_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/include/cam_interface/cam_interface/msg\n'}
+[7.829369] (cam_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/include/cam_interface/cam_interface/msg/rosidl_generator_c__visibility_control.h\n'}
+[7.829476] (cam_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/include/cam_interface/cam_interface/msg/cam_topic.h\n'}
+[7.829577] (cam_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/include/cam_interface/cam_interface/msg/detail\n'}
+[7.829677] (cam_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/include/cam_interface/cam_interface/msg/detail/cam_topic__functions.c\n'}
+[7.829950] (cam_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/include/cam_interface/cam_interface/msg/detail/cam_topic__struct.h\n'}
+[7.830113] (cam_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/include/cam_interface/cam_interface/msg/detail/cam_topic__type_support.h\n'}
+[7.830290] (cam_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/include/cam_interface/cam_interface/msg/detail/cam_topic__functions.h\n'}
+[7.830644] (cam_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/share/cam_interface/environment/library_path.sh\n'}
+[7.830769] (cam_interface) StdoutLine: {'line': b'-- Installing: /home/akash/new_ros_ws/install/cam_interface/share/cam_interface/environment/library_path.dsv\n'}
+[7.831047] (cam_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/lib/libcam_interface__rosidl_generator_c.so\n'}
+[7.831210] (cam_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/include/cam_interface/cam_interface\n'}
+[7.831383] (cam_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/include/cam_interface/cam_interface/msg\n'}
+[7.831628] (cam_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/include/cam_interface/cam_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[7.831982] (cam_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/include/cam_interface/cam_interface/msg/detail\n'}
+[7.832098] (cam_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/include/cam_interface/cam_interface/msg/detail/cam_topic__rosidl_typesupport_fastrtps_c.h\n'}
+[7.832199] (cam_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/lib/libcam_interface__rosidl_typesupport_fastrtps_c.so\n'}
+[7.832298] (cam_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/include/cam_interface/cam_interface\n'}
+[7.832396] (cam_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/include/cam_interface/cam_interface/msg\n'}
+[7.832626] (cam_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/include/cam_interface/cam_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[7.832741] (cam_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/include/cam_interface/cam_interface/msg/detail\n'}
+[7.832988] (cam_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/include/cam_interface/cam_interface/msg/detail/cam_topic__rosidl_typesupport_introspection_c.h\n'}
+[7.833242] (cam_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/include/cam_interface/cam_interface/msg/detail/cam_topic__type_support.c\n'}
+[7.833639] (cam_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/lib/libcam_interface__rosidl_typesupport_introspection_c.so\n'}
+[7.833965] (cam_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/lib/libcam_interface__rosidl_typesupport_c.so\n'}
+[7.834091] (-) TimerEvent: {}
+[7.834304] (cam_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/include/cam_interface/cam_interface\n'}
+[7.834436] (cam_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/include/cam_interface/cam_interface/msg\n'}
+[7.834541] (cam_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/include/cam_interface/cam_interface/msg/cam_topic.hpp\n'}
+[7.834760] (cam_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/include/cam_interface/cam_interface/msg/detail\n'}
+[7.835146] (cam_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/include/cam_interface/cam_interface/msg/detail/cam_topic__traits.hpp\n'}
+[7.835273] (cam_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/include/cam_interface/cam_interface/msg/detail/cam_topic__struct.hpp\n'}
+[7.835373] (cam_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/include/cam_interface/cam_interface/msg/detail/cam_topic__builder.hpp\n'}
+[7.835471] (cam_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/include/cam_interface/cam_interface\n'}
+[7.835662] (cam_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/include/cam_interface/cam_interface/msg\n'}
+[7.835788] (cam_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/include/cam_interface/cam_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[7.835890] (cam_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/include/cam_interface/cam_interface/msg/detail\n'}
+[7.835990] (cam_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/include/cam_interface/cam_interface/msg/detail/dds_fastrtps\n'}
+[7.836086] (cam_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/include/cam_interface/cam_interface/msg/detail/cam_topic__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.836183] (cam_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/lib/libcam_interface__rosidl_typesupport_fastrtps_cpp.so\n'}
+[7.836380] (cam_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/include/cam_interface/cam_interface\n'}
+[7.836621] (cam_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/include/cam_interface/cam_interface/msg\n'}
+[7.836870] (cam_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/include/cam_interface/cam_interface/msg/detail\n'}
+[7.836997] (cam_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/include/cam_interface/cam_interface/msg/detail/cam_topic__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.837351] (cam_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/include/cam_interface/cam_interface/msg/detail/cam_topic__type_support.cpp\n'}
+[7.837736] (cam_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/lib/libcam_interface__rosidl_typesupport_introspection_cpp.so\n'}
+[7.838125] (cam_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/lib/libcam_interface__rosidl_typesupport_cpp.so\n'}
+[7.838507] (cam_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/share/cam_interface/environment/pythonpath.sh\n'}
+[7.838862] (cam_interface) StdoutLine: {'line': b'-- Installing: /home/akash/new_ros_ws/install/cam_interface/share/cam_interface/environment/pythonpath.dsv\n'}
+[7.839604] (cam_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/local/lib/python3.10/dist-packages/cam_interface-0.0.0-py3.10.egg-info\n'}
+[7.839863] (cam_interface) StdoutLine: {'line': b'-- Installing: /home/akash/new_ros_ws/install/cam_interface/local/lib/python3.10/dist-packages/cam_interface-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[7.840199] (cam_interface) StdoutLine: {'line': b'-- Installing: /home/akash/new_ros_ws/install/cam_interface/local/lib/python3.10/dist-packages/cam_interface-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[7.840402] (cam_interface) StdoutLine: {'line': b'-- Installing: /home/akash/new_ros_ws/install/cam_interface/local/lib/python3.10/dist-packages/cam_interface-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[7.840643] (cam_interface) StdoutLine: {'line': b'-- Installing: /home/akash/new_ros_ws/install/cam_interface/local/lib/python3.10/dist-packages/cam_interface-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[7.840868] (cam_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/local/lib/python3.10/dist-packages/cam_interface\n'}
+[7.841083] (cam_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/local/lib/python3.10/dist-packages/cam_interface/cam_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.841342] (cam_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/local/lib/python3.10/dist-packages/cam_interface/cam_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.841590] (cam_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/local/lib/python3.10/dist-packages/cam_interface/_cam_interface_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[7.841874] (cam_interface) StdoutLine: {'line': b'-- Installing: /home/akash/new_ros_ws/install/cam_interface/local/lib/python3.10/dist-packages/cam_interface/__init__.py\n'}
+[7.842103] (cam_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/local/lib/python3.10/dist-packages/cam_interface/_cam_interface_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[7.842317] (cam_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/local/lib/python3.10/dist-packages/cam_interface/cam_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.842485] (cam_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/local/lib/python3.10/dist-packages/cam_interface/_cam_interface_s.ep.rosidl_typesupport_c.c\n'}
+[7.842700] (cam_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/local/lib/python3.10/dist-packages/cam_interface/libcam_interface__rosidl_generator_py.so\n'}
+[7.843003] (cam_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/local/lib/python3.10/dist-packages/cam_interface/msg\n'}
+[7.843205] (cam_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/local/lib/python3.10/dist-packages/cam_interface/msg/_cam_topic.py\n'}
+[7.843405] (cam_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/local/lib/python3.10/dist-packages/cam_interface/msg/__init__.py\n'}
+[7.843591] (cam_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/local/lib/python3.10/dist-packages/cam_interface/msg/_cam_topic_s.c\n'}
+[7.896896] (cam_interface) StdoutLine: {'line': b"Listing '/home/akash/new_ros_ws/install/cam_interface/local/lib/python3.10/dist-packages/cam_interface'...\n"}
+[7.897115] (cam_interface) StdoutLine: {'line': b"Compiling '/home/akash/new_ros_ws/install/cam_interface/local/lib/python3.10/dist-packages/cam_interface/__init__.py'...\n"}
+[7.897231] (cam_interface) StdoutLine: {'line': b"Listing '/home/akash/new_ros_ws/install/cam_interface/local/lib/python3.10/dist-packages/cam_interface/msg'...\n"}
+[7.903869] (cam_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/local/lib/python3.10/dist-packages/cam_interface/cam_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.904515] (cam_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/local/lib/python3.10/dist-packages/cam_interface/cam_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.905402] (cam_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/local/lib/python3.10/dist-packages/cam_interface/cam_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.905988] (cam_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/lib/libcam_interface__rosidl_generator_py.so\n'}
+[7.906345] (cam_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/share/cam_interface/msg/CamTopic.idl\n'}
+[7.906703] (cam_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/share/cam_interface/msg/CamTopic.msg\n'}
+[7.907005] (cam_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/share/ament_index/resource_index/package_run_dependencies/cam_interface\n'}
+[7.907120] (cam_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/share/ament_index/resource_index/parent_prefix_path/cam_interface\n'}
+[7.907319] (cam_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/share/cam_interface/environment/ament_prefix_path.sh\n'}
+[7.907668] (cam_interface) StdoutLine: {'line': b'-- Installing: /home/akash/new_ros_ws/install/cam_interface/share/cam_interface/environment/ament_prefix_path.dsv\n'}
+[7.908061] (cam_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/share/cam_interface/environment/path.sh\n'}
+[7.908241] (cam_interface) StdoutLine: {'line': b'-- Installing: /home/akash/new_ros_ws/install/cam_interface/share/cam_interface/environment/path.dsv\n'}
+[7.908559] (cam_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/share/cam_interface/local_setup.bash\n'}
+[7.908692] (cam_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/share/cam_interface/local_setup.sh\n'}
+[7.908991] (cam_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/share/cam_interface/local_setup.zsh\n'}
+[7.909395] (cam_interface) StdoutLine: {'line': b'-- Installing: /home/akash/new_ros_ws/install/cam_interface/share/cam_interface/local_setup.dsv\n'}
+[7.909547] (cam_interface) StdoutLine: {'line': b'-- Installing: /home/akash/new_ros_ws/install/cam_interface/share/cam_interface/package.dsv\n'}
+[7.909853] (cam_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/share/ament_index/resource_index/packages/cam_interface\n'}
+[7.910241] (cam_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/share/cam_interface/cmake/export_cam_interface__rosidl_generator_cExport.cmake\n'}
+[7.910630] (cam_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/share/cam_interface/cmake/export_cam_interface__rosidl_generator_cExport-noconfig.cmake\n'}
+[7.910992] (cam_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/share/cam_interface/cmake/export_cam_interface__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[7.911320] (cam_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/share/cam_interface/cmake/export_cam_interface__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[7.911612] (cam_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/share/cam_interface/cmake/cam_interface__rosidl_typesupport_introspection_cExport.cmake\n'}
+[7.911917] (cam_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/share/cam_interface/cmake/cam_interface__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[7.912174] (cam_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/share/cam_interface/cmake/cam_interface__rosidl_typesupport_cExport.cmake\n'}
+[7.912668] (cam_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/share/cam_interface/cmake/cam_interface__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[7.913086] (cam_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/share/cam_interface/cmake/export_cam_interface__rosidl_generator_cppExport.cmake\n'}
+[7.913241] (cam_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/share/cam_interface/cmake/export_cam_interface__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[7.913372] (cam_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/share/cam_interface/cmake/export_cam_interface__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[7.913484] (cam_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/share/cam_interface/cmake/cam_interface__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[7.913587] (cam_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/share/cam_interface/cmake/cam_interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[7.913689] (cam_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/share/cam_interface/cmake/cam_interface__rosidl_typesupport_cppExport.cmake\n'}
+[7.913791] (cam_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/share/cam_interface/cmake/cam_interface__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[7.913901] (cam_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/share/cam_interface/cmake/export_cam_interface__rosidl_generator_pyExport.cmake\n'}
+[7.914001] (cam_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/share/cam_interface/cmake/export_cam_interface__rosidl_generator_pyExport-noconfig.cmake\n'}
+[7.914105] (cam_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/share/cam_interface/cmake/rosidl_cmake-extras.cmake\n'}
+[7.914205] (cam_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/share/cam_interface/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[7.914467] (cam_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/share/cam_interface/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[7.914810] (cam_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/share/cam_interface/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[7.915072] (cam_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/share/cam_interface/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[7.915679] (cam_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/share/cam_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[7.915946] (cam_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/share/cam_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[7.918756] (cam_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/share/cam_interface/cmake/cam_interfaceConfig.cmake\n'}
+[7.919049] (cam_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/share/cam_interface/cmake/cam_interfaceConfig-version.cmake\n'}
+[7.919310] (cam_interface) StdoutLine: {'line': b'-- Up-to-date: /home/akash/new_ros_ws/install/cam_interface/share/cam_interface/package.xml\n'}
+[7.919537] (cam_interface) CommandEnded: {'returncode': 0}
+[7.934356] (-) TimerEvent: {}
+[8.035191] (-) TimerEvent: {}
+[8.136499] (-) TimerEvent: {}
+[8.239271] (-) TimerEvent: {}
+[8.287175] (cam_interface) JobEnded: {'identifier': 'cam_interface', 'rc': 0}
+[8.292787] (cam_pub_sub) JobStarted: {'identifier': 'cam_pub_sub'}
+[8.339447] (-) TimerEvent: {}
+[8.441006] (-) TimerEvent: {}
+[8.541429] (-) TimerEvent: {}
+[8.641890] (-) TimerEvent: {}
+[8.742337] (-) TimerEvent: {}
+[8.842743] (-) TimerEvent: {}
+[8.943169] (-) TimerEvent: {}
+[9.043592] (-) TimerEvent: {}
+[9.144021] (-) TimerEvent: {}
+[9.244599] (-) TimerEvent: {}
+[9.345169] (-) TimerEvent: {}
+[9.445584] (-) TimerEvent: {}
+[9.545989] (-) TimerEvent: {}
+[9.646422] (-) TimerEvent: {}
+[9.746817] (-) TimerEvent: {}
+[9.847214] (-) TimerEvent: {}
+[9.947662] (-) TimerEvent: {}
+[10.048088] (-) TimerEvent: {}
+[10.133308] (cam_pub_sub) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/cam_pub_sub', 'build', '--build-base', '/home/akash/final_project_sme_lab_12194814/12194814_ros_ws/build/cam_pub_sub/build', 'install', '--record', '/home/akash/final_project_sme_lab_12194814/12194814_ros_ws/build/cam_pub_sub/install.log', '--single-version-externally-managed'], 'cwd': '/home/akash/final_project_sme_lab_12194814/12194814_ros_ws/src/cam_pub_sub', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'akash', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/akash/final_project_sme_lab_12194814/12194814_ros_ws/install/cam_interface/lib:/home/akash/new_ros_ws/install/gesture_interface/lib:/home/akash/new_ros_ws/install/cam_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/akash', 'OLDPWD': '/home/akash/final_project_sme_lab_12194814', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/akash/new_ros_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'akash', 'NAME': 'DESKTOP-H8F0PIR', 'WSL_INTEROP': '/run/WSL/440_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/akash/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.7/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.7/libnvvp:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/iCLS/:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/iCLS/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/IPT:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/IPT:/mnt/c/Program Files/Intel/WiFi/bin/:/mnt/c/Program Files/Common Files/Intel/WirelessCommon/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2022.2.0/:/mnt/c/Program Files/Git/cmd:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.7/lib/x64:/mnt/c/Users/akash/anaconda3:/mnt/c/Users/akash/anaconda3/Scripts:/mnt/c/Users/akash/anaconda3/condabin:/mnt/c/Users/akash/anaconda3/Library/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.7:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.7/include:/mnt/c/Users/akash/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/akash/AppData/Local/Microsoft/WindowsApps:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/akash/new_ros_ws/install/gesture_pub_sub:/home/akash/new_ros_ws/install/gesture_interface:/home/akash/new_ros_ws/install/cam_pub_sub:/home/akash/new_ros_ws/install/cam_interface:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/akash/final_project_sme_lab_12194814/12194814_ros_ws/build/cam_pub_sub', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/akash/final_project_sme_lab_12194814/12194814_ros_ws/build/cam_pub_sub/prefix_override:/home/akash/final_project_sme_lab_12194814/12194814_ros_ws/install/cam_pub_sub/lib/python3.10/site-packages:/home/akash/new_ros_ws/install/gesture_pub_sub/lib/python3.10/site-packages:/home/akash/new_ros_ws/install/gesture_interface/local/lib/python3.10/dist-packages:/home/akash/new_ros_ws/install/cam_pub_sub/lib/python3.10/site-packages:/home/akash/new_ros_ws/install/cam_interface/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/akash/final_project_sme_lab_12194814/12194814_ros_ws/install/cam_interface:/home/akash/new_ros_ws/install/gesture_interface:/home/akash/new_ros_ws/install/cam_interface', 'WSLENV': ''}, 'shell': False}
+[10.148232] (-) TimerEvent: {}
+[10.248616] (-) TimerEvent: {}
+[10.349034] (-) TimerEvent: {}
+[10.449500] (-) TimerEvent: {}
+[10.536608] (cam_pub_sub) StdoutLine: {'line': b'running egg_info\n'}
+[10.537714] (cam_pub_sub) StdoutLine: {'line': b'writing ../../build/cam_pub_sub/cam_pub_sub.egg-info/PKG-INFO\n'}
+[10.538195] (cam_pub_sub) StdoutLine: {'line': b'writing dependency_links to ../../build/cam_pub_sub/cam_pub_sub.egg-info/dependency_links.txt\n'}
+[10.538710] (cam_pub_sub) StdoutLine: {'line': b'writing entry points to ../../build/cam_pub_sub/cam_pub_sub.egg-info/entry_points.txt\n'}
+[10.538882] (cam_pub_sub) StdoutLine: {'line': b'writing requirements to ../../build/cam_pub_sub/cam_pub_sub.egg-info/requires.txt\n'}
+[10.538996] (cam_pub_sub) StdoutLine: {'line': b'writing top-level names to ../../build/cam_pub_sub/cam_pub_sub.egg-info/top_level.txt\n'}
+[10.541854] (cam_pub_sub) StdoutLine: {'line': b"reading manifest file '../../build/cam_pub_sub/cam_pub_sub.egg-info/SOURCES.txt'\n"}
+[10.543702] (cam_pub_sub) StdoutLine: {'line': b"writing manifest file '../../build/cam_pub_sub/cam_pub_sub.egg-info/SOURCES.txt'\n"}
+[10.544096] (cam_pub_sub) StdoutLine: {'line': b'running build\n'}
+[10.544261] (cam_pub_sub) StdoutLine: {'line': b'running build_py\n'}
+[10.544506] (cam_pub_sub) StdoutLine: {'line': b'running install\n'}
+[10.544992] (cam_pub_sub) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[10.545338] (cam_pub_sub) StderrLine: {'line': b'  warnings.warn(\n'}
+[10.545485] (cam_pub_sub) StdoutLine: {'line': b'running install_lib\n'}
+[10.547113] (cam_pub_sub) StdoutLine: {'line': b'running install_data\n'}
+[10.547922] (cam_pub_sub) StdoutLine: {'line': b'running install_egg_info\n'}
+[10.549663] (-) TimerEvent: {}
+[10.550462] (cam_pub_sub) StdoutLine: {'line': b"removing '/home/akash/final_project_sme_lab_12194814/12194814_ros_ws/install/cam_pub_sub/lib/python3.10/site-packages/cam_pub_sub-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[10.551295] (cam_pub_sub) StdoutLine: {'line': b'Copying ../../build/cam_pub_sub/cam_pub_sub.egg-info to /home/akash/final_project_sme_lab_12194814/12194814_ros_ws/install/cam_pub_sub/lib/python3.10/site-packages/cam_pub_sub-0.0.0-py3.10.egg-info\n'}
+[10.553222] (cam_pub_sub) StdoutLine: {'line': b'running install_scripts\n'}
+[10.586548] (cam_pub_sub) StdoutLine: {'line': b'Installing cam_pub script to /home/akash/final_project_sme_lab_12194814/12194814_ros_ws/install/cam_pub_sub/lib/cam_pub_sub\n'}
+[10.586955] (cam_pub_sub) StdoutLine: {'line': b'Installing cam_sub script to /home/akash/final_project_sme_lab_12194814/12194814_ros_ws/install/cam_pub_sub/lib/cam_pub_sub\n'}
+[10.587498] (cam_pub_sub) StdoutLine: {'line': b"writing list of installed files to '/home/akash/final_project_sme_lab_12194814/12194814_ros_ws/build/cam_pub_sub/install.log'\n"}
+[10.627354] (cam_pub_sub) CommandEnded: {'returncode': 0}
+[10.650638] (-) TimerEvent: {}
+[10.710370] (cam_pub_sub) JobEnded: {'identifier': 'cam_pub_sub', 'rc': 0}
+[10.714565] (gesture_pub_sub) JobStarted: {'identifier': 'gesture_pub_sub'}
+[10.751903] (-) TimerEvent: {}
+[10.852476] (-) TimerEvent: {}
+[10.952928] (-) TimerEvent: {}
+[11.053412] (-) TimerEvent: {}
+[11.153828] (-) TimerEvent: {}
+[11.254295] (-) TimerEvent: {}
+[11.354764] (-) TimerEvent: {}
+[11.455228] (-) TimerEvent: {}
+[11.555694] (-) TimerEvent: {}
+[11.656142] (-) TimerEvent: {}
+[11.756588] (-) TimerEvent: {}
+[11.857041] (-) TimerEvent: {}
+[11.957485] (-) TimerEvent: {}
+[12.057958] (-) TimerEvent: {}
+[12.158433] (-) TimerEvent: {}
+[12.259308] (-) TimerEvent: {}
+[12.360711] (-) TimerEvent: {}
+[12.465215] (-) TimerEvent: {}
+[12.565676] (-) TimerEvent: {}
+[12.666091] (-) TimerEvent: {}
+[12.766564] (-) TimerEvent: {}
+[12.867127] (-) TimerEvent: {}
+[12.967580] (-) TimerEvent: {}
+[13.068035] (-) TimerEvent: {}
+[13.168551] (-) TimerEvent: {}
+[13.269051] (-) TimerEvent: {}
+[13.369481] (-) TimerEvent: {}
+[13.469912] (-) TimerEvent: {}
+[13.570314] (-) TimerEvent: {}
+[13.670801] (-) TimerEvent: {}
+[13.771233] (-) TimerEvent: {}
+[13.774322] (gesture_pub_sub) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/gesture_pub_sub', 'build', '--build-base', '/home/akash/final_project_sme_lab_12194814/12194814_ros_ws/build/gesture_pub_sub/build', 'install', '--record', '/home/akash/final_project_sme_lab_12194814/12194814_ros_ws/build/gesture_pub_sub/install.log', '--install-scripts', '$base/lib/gesture_pub_sub', '--single-version-externally-managed'], 'cwd': '/home/akash/final_project_sme_lab_12194814/12194814_ros_ws/src/gesture_pub_sub', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'akash', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/akash/final_project_sme_lab_12194814/12194814_ros_ws/install/gesture_interface/lib:/home/akash/final_project_sme_lab_12194814/12194814_ros_ws/install/cam_interface/lib:/home/akash/new_ros_ws/install/gesture_interface/lib:/home/akash/new_ros_ws/install/cam_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/akash', 'OLDPWD': '/home/akash/final_project_sme_lab_12194814', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/akash/new_ros_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'akash', 'NAME': 'DESKTOP-H8F0PIR', 'WSL_INTEROP': '/run/WSL/440_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/akash/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.7/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.7/libnvvp:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/iCLS/:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/iCLS/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/IPT:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/IPT:/mnt/c/Program Files/Intel/WiFi/bin/:/mnt/c/Program Files/Common Files/Intel/WirelessCommon/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2022.2.0/:/mnt/c/Program Files/Git/cmd:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.7/lib/x64:/mnt/c/Users/akash/anaconda3:/mnt/c/Users/akash/anaconda3/Scripts:/mnt/c/Users/akash/anaconda3/condabin:/mnt/c/Users/akash/anaconda3/Library/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.7:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.7/include:/mnt/c/Users/akash/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/akash/AppData/Local/Microsoft/WindowsApps:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/akash/final_project_sme_lab_12194814/12194814_ros_ws/install/cam_pub_sub:/home/akash/new_ros_ws/install/gesture_pub_sub:/home/akash/new_ros_ws/install/gesture_interface:/home/akash/new_ros_ws/install/cam_pub_sub:/home/akash/new_ros_ws/install/cam_interface:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/akash/final_project_sme_lab_12194814/12194814_ros_ws/build/gesture_pub_sub', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/akash/final_project_sme_lab_12194814/12194814_ros_ws/build/gesture_pub_sub/prefix_override:/home/akash/final_project_sme_lab_12194814/12194814_ros_ws/install/gesture_pub_sub/lib/python3.10/site-packages:/home/akash/final_project_sme_lab_12194814/12194814_ros_ws/install/cam_pub_sub/lib/python3.10/site-packages:/home/akash/new_ros_ws/install/gesture_pub_sub/lib/python3.10/site-packages:/home/akash/new_ros_ws/install/gesture_interface/local/lib/python3.10/dist-packages:/home/akash/new_ros_ws/install/cam_pub_sub/lib/python3.10/site-packages:/home/akash/new_ros_ws/install/cam_interface/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/akash/final_project_sme_lab_12194814/12194814_ros_ws/install/gesture_interface:/home/akash/final_project_sme_lab_12194814/12194814_ros_ws/install/cam_interface:/home/akash/new_ros_ws/install/gesture_interface:/home/akash/new_ros_ws/install/cam_interface', 'WSLENV': ''}, 'shell': False}
+[13.871419] (-) TimerEvent: {}
+[13.971843] (-) TimerEvent: {}
+[14.072318] (-) TimerEvent: {}
+[14.172799] (-) TimerEvent: {}
+[14.181157] (gesture_pub_sub) StderrLine: {'line': b"/usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead\n"}
+[14.181389] (gesture_pub_sub) StderrLine: {'line': b'  warnings.warn(\n'}
+[14.193770] (gesture_pub_sub) StdoutLine: {'line': b'running egg_info\n'}
+[14.194834] (gesture_pub_sub) StdoutLine: {'line': b'writing ../../build/gesture_pub_sub/gesture_pub_sub.egg-info/PKG-INFO\n'}
+[14.195430] (gesture_pub_sub) StdoutLine: {'line': b'writing dependency_links to ../../build/gesture_pub_sub/gesture_pub_sub.egg-info/dependency_links.txt\n'}
+[14.195825] (gesture_pub_sub) StdoutLine: {'line': b'writing entry points to ../../build/gesture_pub_sub/gesture_pub_sub.egg-info/entry_points.txt\n'}
+[14.196299] (gesture_pub_sub) StdoutLine: {'line': b'writing requirements to ../../build/gesture_pub_sub/gesture_pub_sub.egg-info/requires.txt\n'}
+[14.196460] (gesture_pub_sub) StdoutLine: {'line': b'writing top-level names to ../../build/gesture_pub_sub/gesture_pub_sub.egg-info/top_level.txt\n'}
+[14.198897] (gesture_pub_sub) StdoutLine: {'line': b"reading manifest file '../../build/gesture_pub_sub/gesture_pub_sub.egg-info/SOURCES.txt'\n"}
+[14.200805] (gesture_pub_sub) StdoutLine: {'line': b"writing manifest file '../../build/gesture_pub_sub/gesture_pub_sub.egg-info/SOURCES.txt'\n"}
+[14.201367] (gesture_pub_sub) StdoutLine: {'line': b'running build\n'}
+[14.201537] (gesture_pub_sub) StdoutLine: {'line': b'running build_py\n'}
+[14.202030] (gesture_pub_sub) StdoutLine: {'line': b'copying gesture_pub_sub/ges_pub.py -> /home/akash/final_project_sme_lab_12194814/12194814_ros_ws/build/gesture_pub_sub/build/lib/gesture_pub_sub\n'}
+[14.203335] (gesture_pub_sub) StdoutLine: {'line': b'running install\n'}
+[14.203721] (gesture_pub_sub) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[14.203879] (gesture_pub_sub) StderrLine: {'line': b'  warnings.warn(\n'}
+[14.204259] (gesture_pub_sub) StdoutLine: {'line': b'running install_lib\n'}
+[14.205443] (gesture_pub_sub) StdoutLine: {'line': b'copying /home/akash/final_project_sme_lab_12194814/12194814_ros_ws/build/gesture_pub_sub/build/lib/gesture_pub_sub/ges_pub.py -> /home/akash/final_project_sme_lab_12194814/12194814_ros_ws/install/gesture_pub_sub/lib/python3.10/site-packages/gesture_pub_sub\n'}
+[14.206808] (gesture_pub_sub) StdoutLine: {'line': b'byte-compiling /home/akash/final_project_sme_lab_12194814/12194814_ros_ws/install/gesture_pub_sub/lib/python3.10/site-packages/gesture_pub_sub/ges_pub.py to ges_pub.cpython-310.pyc\n'}
+[14.208663] (gesture_pub_sub) StdoutLine: {'line': b'running install_data\n'}
+[14.209735] (gesture_pub_sub) StdoutLine: {'line': b'running install_egg_info\n'}
+[14.212251] (gesture_pub_sub) StdoutLine: {'line': b"removing '/home/akash/final_project_sme_lab_12194814/12194814_ros_ws/install/gesture_pub_sub/lib/python3.10/site-packages/gesture_pub_sub-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[14.212963] (gesture_pub_sub) StdoutLine: {'line': b'Copying ../../build/gesture_pub_sub/gesture_pub_sub.egg-info to /home/akash/final_project_sme_lab_12194814/12194814_ros_ws/install/gesture_pub_sub/lib/python3.10/site-packages/gesture_pub_sub-0.0.0-py3.10.egg-info\n'}
+[14.214933] (gesture_pub_sub) StdoutLine: {'line': b'running install_scripts\n'}
+[14.247146] (gesture_pub_sub) StdoutLine: {'line': b'Installing gesture_publisher script to /home/akash/final_project_sme_lab_12194814/12194814_ros_ws/install/gesture_pub_sub/lib/gesture_pub_sub\n'}
+[14.247564] (gesture_pub_sub) StdoutLine: {'line': b'Installing gesture_subscriber script to /home/akash/final_project_sme_lab_12194814/12194814_ros_ws/install/gesture_pub_sub/lib/gesture_pub_sub\n'}
+[14.248196] (gesture_pub_sub) StdoutLine: {'line': b"writing list of installed files to '/home/akash/final_project_sme_lab_12194814/12194814_ros_ws/build/gesture_pub_sub/install.log'\n"}
+[14.273025] (-) TimerEvent: {}
+[14.289600] (gesture_pub_sub) CommandEnded: {'returncode': 0}
+[14.373464] (-) TimerEvent: {}
+[14.387540] (gesture_pub_sub) JobEnded: {'identifier': 'gesture_pub_sub', 'rc': 0}
+[14.389991] (-) EventReactorShutdown: {}

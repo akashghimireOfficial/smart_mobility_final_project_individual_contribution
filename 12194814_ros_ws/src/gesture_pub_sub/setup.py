@@ -1,6 +1,6 @@
 from setuptools import find_packages, setup
 
-package_name = 'gesture_pub_sub'
+package_name = 'gesture_pub_sub' #name of the package
 
 setup(
     name=package_name,
@@ -10,7 +10,7 @@ setup(
         ('share/ament_index/resource_index/packages',
             ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
-        ('share/' + package_name + '/launch', ['launch/gesture_turtlesim_launch.py']),
+        ('share/' + package_name + '/launch', ['launch/gesture_turtlesim_launch.py']), ## added launch file here
     ],
     install_requires=['setuptools'],
     zip_safe=True,
@@ -19,9 +19,9 @@ setup(
     description='TODO: Package description',
     license='TODO: License declaration',
     tests_require=['pytest'],
-    entry_points={
+    entry_points={ ## added executable
         'console_scripts': [
-            'gesture_publisher=gesture_pub_sub.ges_pub:main',
+            'gesture_publisher=gesture_pub_sub.ges_pub:main', 
             'gesture_subscriber=gesture_pub_sub.ges_sub_turtlesim:main'
         ],
     },

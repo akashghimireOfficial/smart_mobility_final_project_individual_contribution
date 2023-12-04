@@ -1,0 +1,1 @@
+[0mCMake Error: The current CMakeCache.txt directory /home/akash/final_project_sme_lab_12194814/12194814_ros_ws/build/gesture_interface/CMakeCache.txt is different than the directory /home/akash/new_ros_ws/build/gesture_interface where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m

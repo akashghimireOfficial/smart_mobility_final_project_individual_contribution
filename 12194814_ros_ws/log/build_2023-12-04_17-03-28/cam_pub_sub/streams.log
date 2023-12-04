@@ -1,0 +1,24 @@
+[1.841s] Invoking command in '/home/akash/final_project_sme_lab_12194814/12194814_ros_ws/src/cam_pub_sub': CMAKE_PREFIX_PATH=/home/akash/final_project_sme_lab_12194814/12194814_ros_ws/install/cam_interface:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/akash/final_project_sme_lab_12194814/12194814_ros_ws/install/cam_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/akash/final_project_sme_lab_12194814/12194814_ros_ws/build/cam_pub_sub/prefix_override:/home/akash/final_project_sme_lab_12194814/12194814_ros_ws/install/cam_pub_sub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/cam_pub_sub build --build-base /home/akash/final_project_sme_lab_12194814/12194814_ros_ws/build/cam_pub_sub/build install --record /home/akash/final_project_sme_lab_12194814/12194814_ros_ws/build/cam_pub_sub/install.log --single-version-externally-managed
+[2.244s] running egg_info
+[2.245s] writing ../../build/cam_pub_sub/cam_pub_sub.egg-info/PKG-INFO
+[2.245s] writing dependency_links to ../../build/cam_pub_sub/cam_pub_sub.egg-info/dependency_links.txt
+[2.246s] writing entry points to ../../build/cam_pub_sub/cam_pub_sub.egg-info/entry_points.txt
+[2.246s] writing requirements to ../../build/cam_pub_sub/cam_pub_sub.egg-info/requires.txt
+[2.246s] writing top-level names to ../../build/cam_pub_sub/cam_pub_sub.egg-info/top_level.txt
+[2.249s] reading manifest file '../../build/cam_pub_sub/cam_pub_sub.egg-info/SOURCES.txt'
+[2.251s] writing manifest file '../../build/cam_pub_sub/cam_pub_sub.egg-info/SOURCES.txt'
+[2.251s] running build
+[2.251s] running build_py
+[2.252s] running install
+[2.252s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.253s]   warnings.warn(
+[2.253s] running install_lib
+[2.254s] running install_data
+[2.255s] running install_egg_info
+[2.258s] removing '/home/akash/final_project_sme_lab_12194814/12194814_ros_ws/install/cam_pub_sub/lib/python3.10/site-packages/cam_pub_sub-0.0.0-py3.10.egg-info' (and everything under it)
+[2.259s] Copying ../../build/cam_pub_sub/cam_pub_sub.egg-info to /home/akash/final_project_sme_lab_12194814/12194814_ros_ws/install/cam_pub_sub/lib/python3.10/site-packages/cam_pub_sub-0.0.0-py3.10.egg-info
+[2.260s] running install_scripts
+[2.294s] Installing cam_pub script to /home/akash/final_project_sme_lab_12194814/12194814_ros_ws/install/cam_pub_sub/lib/cam_pub_sub
+[2.294s] Installing cam_sub script to /home/akash/final_project_sme_lab_12194814/12194814_ros_ws/install/cam_pub_sub/lib/cam_pub_sub
+[2.295s] writing list of installed files to '/home/akash/final_project_sme_lab_12194814/12194814_ros_ws/build/cam_pub_sub/install.log'
+[2.335s] Invoked command in '/home/akash/final_project_sme_lab_12194814/12194814_ros_ws/src/cam_pub_sub' returned '0': CMAKE_PREFIX_PATH=/home/akash/final_project_sme_lab_12194814/12194814_ros_ws/install/cam_interface:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/akash/final_project_sme_lab_12194814/12194814_ros_ws/install/cam_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/akash/final_project_sme_lab_12194814/12194814_ros_ws/build/cam_pub_sub/prefix_override:/home/akash/final_project_sme_lab_12194814/12194814_ros_ws/install/cam_pub_sub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/cam_pub_sub build --build-base /home/akash/final_project_sme_lab_12194814/12194814_ros_ws/build/cam_pub_sub/build install --record /home/akash/final_project_sme_lab_12194814/12194814_ros_ws/build/cam_pub_sub/install.log --single-version-externally-managed

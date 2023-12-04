@@ -10,7 +10,7 @@ setup(
         ('share/ament_index/resource_index/packages',
             ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
-        ('share/' + package_name + '/launch', ['launch/cam_launch.py']),
+        ('share/' + package_name + '/launch', ['launch/cam_launch.py']), ## adding launch file
     ],
     install_requires=['setuptools'],
     zip_safe=True,
@@ -20,7 +20,7 @@ setup(
     license='TODO: License declaration',
     tests_require=['pytest'],
     entry_points={
-        'console_scripts': [
+        'console_scripts': [ ## adding executable publisher and subscriber
             'cam_pub=cam_pub_sub.cam_pub:main',
             'cam_sub=cam_pub_sub.cam_sub:main'
 
