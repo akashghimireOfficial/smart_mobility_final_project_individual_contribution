@@ -30,15 +30,56 @@ I have created 4 packages in which two are for exchange of ROS2 topics while oth
 > A detailed discription is provided on presentation and google slides. 
 
 
-## Project Requirement
+# Project Requirement
 
-- ✓ Launch files
-- ✓ Bag files (for recording) - mandatory
-- ✓ Using PyTest scenarios - mandatory
-- ✓ Using Advanced CLI with click library in Python - mandatory
-- ✓ At least two ROS functions for each member - mandatory
-- ✓ Well-commented codes - mandatory
+-  ## ✓ Launch files (snipshot) : Two Launch files:
 
+**gesture_pub_sub launch files**
+
+![Alt text](image.png)
+
+**cam_pub_sub launch files**
+![Alt text](image-1.png)
+
+
+- ## ✓ Bag files (for recording) - mandatory
+![Alt text](image-2.png)
+
+
+
+- ## ✓ Using Advanced CLI with click library in Python - mandatory
+![Alt text](image-3.png)
+
+![Alt text](image-4.png)
+
+- ##  ✓ At least two ROS functions for each member - mandatory
+
+I have built four packages: [Click Here](/12194814_ros_ws/src/)
+
+    - [cam_interface](/12194814_ros_ws/src/cam_interface) and [gesture_interface](/12194814_ros_ws/src/gesture_interface) consist of `CamTopic` and `GestureTopic` used by [cam_pub_sub](/12194814_ros_ws/src/cam_pub_sub) and [gesture_pub_sub](/12194814_ros_ws/src/gesture_pub_sub) packages.
+
+    - Under [gesture_pub_sub](/12194814_ros_ws/src/gesture_pub_sub) package there are two ros_functionality: [gesture_pub_sub](/12194814_ros_ws/src/gesture_pub_sub/gesture_pub_sub/ges_pub.py) and [gesture_pub_sub](/12194814_ros_ws/src/gesture_pub_sub/gesture_pub_sub/ges_sub_turtlesim.py) 
+
+    - Under [cam_pub_sub](/12194814_ros_ws/src/cam_pub_sub) package there are two ros_functionality: [cam_pub_sub](/12194814_ros_ws/src/cam_pub_sub/cam_pub_sub/cam_pub.py) and [cam_pub_sub](/12194814_ros_ws/src/cam_pub_sub/cam_pub_sub/cam_sub.py) 
+
+    **In total I have two interfaces, and four ROS functionality.**
+
+
+
+
+
+- ## ✓ Well-commented codes - mandatory
+![Alt text](image-5.png)
+![Alt text](image-6.png)
+![Alt text](image-7.png)
+
+![Alt text](image-8.png)
+
+- ## ✓ Using Test scenarios - mandatory
+
+![Alt text](image-9.png)
+
+![Alt text](image-10.png)
 
 
 ## How to use ros_ws?
@@ -112,6 +153,9 @@ This has been detailly explained on a video presentation which will be submitted
 3. [Demo 3](https://www.youtube.com/watch?v=IUQ8O125wrE&ab_channel=AKASHGHIMIRE)
 4. [Demo 4](https://www.youtube.com/watch?v=wnw1mWM6HAQ&ab_channel=AKASHGHIMIRE)
 
-## [Detailed Explanation of the work: Click Here](https://drive.google.com/file/d/1IRBk5U86LYMGRNqeZW3ha30SwS_quU9d/view?usp=sharing)
+## [Detailed Explanation video: Click Here](https://drive.google.com/file/d/1IRBk5U86LYMGRNqeZW3ha30SwS_quU9d/view?usp=sharing)
+
+## [Detailed Explanation PPT: Click Here](https://docs.google.com/presentation/d/1oz1VikWWInwmaPT3qQgrkYjFS0kgqzyMJ2SVUK5Xpe0/edit?usp=sharing)
+
 
 The final presentation will be submitted on Iclass.
