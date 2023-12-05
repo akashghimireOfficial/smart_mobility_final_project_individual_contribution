@@ -52,15 +52,19 @@ I have created 4 packages in which two are for exchange of ROS2 topics while oth
 
 ![Alt text](image-4.png)
 
-- ##  ✓ At least two ROS functions for each member - mandatory
+- ##  ✓ At least two ROS functions for each member - mandatory (2 interface packages and 4 ros functionality)
 
 I have built four packages: [Click Here](/12194814_ros_ws/src/)
 
-    - [cam_interface](/12194814_ros_ws/src/cam_interface) and [gesture_interface](/12194814_ros_ws/src/gesture_interface) consist of `CamTopic` and `GestureTopic` used by [cam_pub_sub](/12194814_ros_ws/src/cam_pub_sub) and [gesture_pub_sub](/12194814_ros_ws/src/gesture_pub_sub) packages.
+  [cam_interface](/12194814_ros_ws/src/cam_interface) and [gesture_interface](/12194814_ros_ws/src/gesture_interface) consist of `CamTopic` and `GestureTopic` used by [cam_pub_sub](/12194814_ros_ws/src/cam_pub_sub) and [gesture_pub_sub](/12194814_ros_ws/src/gesture_pub_sub) packages.
 
-    - Under [gesture_pub_sub](/12194814_ros_ws/src/gesture_pub_sub) package there are two ros_functionality: [gesture_pub_sub](/12194814_ros_ws/src/gesture_pub_sub/gesture_pub_sub/ges_pub.py) and [gesture_pub_sub](/12194814_ros_ws/src/gesture_pub_sub/gesture_pub_sub/ges_sub_turtlesim.py) 
+  Under [gesture_pub_sub](/12194814_ros_ws/src/gesture_pub_sub) package there are two ros_functionality: 
+  [gesture_pub_sub](/12194814_ros_ws/src/gesture_pub_sub/gesture_pub_sub/ges_pub.py) and 
+  [gesture_pub_sub](/12194814_ros_ws/src/gesture_pub_sub/gesture_pub_sub/ges_sub_turtlesim.py) 
 
-    - Under [cam_pub_sub](/12194814_ros_ws/src/cam_pub_sub) package there are two ros_functionality: [cam_pub_sub](/12194814_ros_ws/src/cam_pub_sub/cam_pub_sub/cam_pub.py) and [cam_pub_sub](/12194814_ros_ws/src/cam_pub_sub/cam_pub_sub/cam_sub.py) 
+  Under [cam_pub_sub](/12194814_ros_ws/src/cam_pub_sub) package there are two ros_functionality: 
+  [cam_pub_sub](/12194814_ros_ws/src/cam_pub_sub/cam_pub_sub/cam_pub.py) and 
+  [cam_pub_sub](/12194814_ros_ws/src/cam_pub_sub/cam_pub_sub/cam_sub.py) 
 
     **In total I have two interfaces, and four ROS functionality.**
 
