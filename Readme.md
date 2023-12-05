@@ -59,12 +59,13 @@ I have built four packages: [Click Here](/12194814_ros_ws/src/)
   [cam_interface](/12194814_ros_ws/src/cam_interface) and [gesture_interface](/12194814_ros_ws/src/gesture_interface) consist of `CamTopic` and `GestureTopic` used by [cam_pub_sub](/12194814_ros_ws/src/cam_pub_sub) and [gesture_pub_sub](/12194814_ros_ws/src/gesture_pub_sub) packages.
 
   Under [gesture_pub_sub](/12194814_ros_ws/src/gesture_pub_sub) package there are two ros_functionality: 
-  [gesture_pub_sub](/12194814_ros_ws/src/gesture_pub_sub/gesture_pub_sub/ges_pub.py) and 
-  [gesture_pub_sub](/12194814_ros_ws/src/gesture_pub_sub/gesture_pub_sub/ges_sub_turtlesim.py) 
+  [gesture_pub.py](/12194814_ros_ws/src/gesture_pub_sub/gesture_pub_sub/ges_pub.py) and 
+  [gesture_sub_turtlesim.py](/12194814_ros_ws/src/gesture_pub_sub/gesture_pub_sub/ges_sub_turtlesim.py) 
+
 
   Under [cam_pub_sub](/12194814_ros_ws/src/cam_pub_sub) package there are two ros_functionality: 
-  [cam_pub_sub](/12194814_ros_ws/src/cam_pub_sub/cam_pub_sub/cam_pub.py) and 
-  [cam_pub_sub](/12194814_ros_ws/src/cam_pub_sub/cam_pub_sub/cam_sub.py) 
+  [cam_pub.py](/12194814_ros_ws/src/cam_pub_sub/cam_pub_sub/cam_pub.py) and 
+  [cam_sub.py](/12194814_ros_ws/src/cam_pub_sub/cam_pub_sub/cam_sub.py) 
 
     **In total I have two interfaces, and four ROS functionality.**
 
